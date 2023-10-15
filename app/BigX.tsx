@@ -1,4 +1,4 @@
-import bigx from "@/public/Vector.png";
+import bigx from "@/public/QXP.png";
 import Image from "next/image";
 
 export default function BigX() {
