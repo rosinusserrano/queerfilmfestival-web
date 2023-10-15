@@ -4,5 +4,14 @@
 
 
 body{
-    cursor: url("/cursor.svg");
+    cursor: url("/cursor.cur"), pointer;
+    text-shadow: 0 0 16px #fff;
+}
+
+.overlay-parent{
+    grid-template-areas: "'overlay'";
+}
+
+.overlay-child{
+    grid-area: "overlay";
 }
