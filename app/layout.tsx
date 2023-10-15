@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { tele } from "./fonts/fonts";
+import BackgroundVideo from "./BackgroundVideo";
+import Footer from "./Footer";
 
 export const metadata: Metadata = {
 	title: "Queerfilmfestival",
@@ -14,15 +16,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="de">
-			<body
-				className={`${tele.className} text-white h-screen bg-black`}
-			>
+			<body className={`${tele.className} text-white h-screen bg-[#e83b96]`}>
 				{children}
-				<div className="absolute top-0 left-0 w-screen h-screen -z-50">
-          <video muted loop autoPlay className="object-cover min-h-full min-w-full">
-            <source src="/Cherry Queer X P_2.mp4" type="video/mp4" />
-          </video>
-        </div>
+				<BackgroundVideo />
+				<Footer />
 			</body>
 		</html>
 	);
