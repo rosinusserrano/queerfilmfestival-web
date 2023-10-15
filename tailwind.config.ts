@@ -15,6 +15,9 @@ const config: Config = {
       },
       colors: {
         pink: "#e83b96"
+      },
+      fontSize: {
+        b: "28px"
       }
     },
   },
