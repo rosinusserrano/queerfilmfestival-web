@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { pix } from "../fonts/fonts";
 
 export default function About({ lang }: { lang: "en" | "de" }) {
-	lang = lang ?? "de"
+	lang = lang ?? "de";
 	return (
 		<main className="overlay-child flex items-center w-full z-10 backdrop-blur-3xl overlay-parent h-full">
 			<motion.div
@@ -73,10 +73,11 @@ export default function About({ lang }: { lang: "en" | "de" }) {
 						mindestens ein Awarenesteam anwesend sein. Zusätzlich gibt es eine
 						anonyme Mailadresse, an welche jederzeit Kritik und/ oder Fragen und
 						Anliegen gesendet werden können. Diese lautet:
-						queerfilmfestival-awareness
-						<span className={`${pix.className}`}>@</span>riseup.net. Wir freuen
-						uns über Hinweise und ein offenes Feedback, um stetig gemeinsam
-						weiter zu lernen.
+						<a href="mailto:queerfilmfestival-awareness@riseup.net">
+							queerfilmfestival-awareness(at)riseup.net
+						</a>
+						. Wir freuen uns über Hinweise und ein offenes Feedback, um stetig
+						gemeinsam weiter zu lernen.
 					</p>
 					<p>
 						Allgemein ist uns klar, dass wir keine vollständige Sicherheit
@@ -150,8 +151,11 @@ export default function About({ lang }: { lang: "en" | "de" }) {
 						screenings and other events. In addition, there is an anonymous
 						email address to which criticism and/or questions and concerns can
 						be sent at any time. This is:
-						queerfilmfestival-awareness@riseup.net. We are happy to receive tips
-						and open feedback so that we can continue to learn together.
+						<a href="mailto:queerfilmfestival-awareness@riseup.net">
+							queerfilmfestival-awareness(at)riseup.net
+						</a>
+						. We are happy to receive tips and open feedback so that we can
+						continue to learn together.
 					</p>
 					<p>
 						In general, we are aware that we cannot guarantee complete safety

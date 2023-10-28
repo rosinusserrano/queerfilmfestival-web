@@ -15,7 +15,3 @@ body {
 .overlay-child {
     grid-area: overlay;
 }
-
-.img-ds{
-    filter: drop-shadow(0px 0px 16px #fff)
-}
