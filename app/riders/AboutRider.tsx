@@ -170,7 +170,9 @@ const AboutMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 			</p>
 			<p>
 				Schreibt uns gerne auf Instagram{" "}
-				<span className={pix.className}>@</span>queerfilmfestivalleipzig
+				<span className={pix.className}>@</span>queerfilmfestivalleipzig <br />
+				Wenn ihr kein Instagram habt, aber dennoch in die Helfis Telegramgruppe
+				möchtet, schreibt uns auf: application_queerxplicit(at)riseup.net
 			</p>
 		</div>
 	),

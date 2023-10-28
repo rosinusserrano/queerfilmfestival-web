@@ -103,7 +103,7 @@ export default function MenuRider({
 						<motion.div
 							initial={{ height: 0 }}
 							animate={contentControls}
-							className="text-xl overflow-hidden text-white"
+							className="text-xl overflow-hidden text-white mt-8"
 							style={{ textShadow: "none" }}
 						>
 							{content}
