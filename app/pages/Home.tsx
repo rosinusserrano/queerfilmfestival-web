@@ -55,6 +55,7 @@ export default function Home({ lang }: { lang?: "en" | "de" }) {
 						<motion.div
 							key={`riderelemtnjdksd_${index}`}
 							ref={refChilds[index]}
+							className="max-w-menu-rider"
 							style={
 								isMobile
 									? {}

@@ -52,7 +52,6 @@ export default function MenuRider({
 			style={{
 				backgroundColor: backgroundColor,
 				textShadow: "none",
-
 			}}
 			className={"w-full h-fit md:h-full text-6xl md:text-4xl p-2 overflow-y-auto"}
 
@@ -90,20 +89,22 @@ export default function MenuRider({
 			>
 				{staticContent ?? (
 					<>
-						{orderedSubmenu.map((submenu, index) => (
-							<MenuUnterpunkt
-								title={submenu}
-								contentMap={submenuContentMap}
-								contentKey={submenu}
-								setContent={setRiderContent}
-								key={`menunterpunsx_${index}`}
-								appendComma={index !== orderedSubmenu.length - 1}
-							/>
-						))}
+						<div className="max-w-menu-content">
+							{orderedSubmenu.map((submenu, index) => (
+								<MenuUnterpunkt
+									title={submenu}
+									contentMap={submenuContentMap}
+									contentKey={submenu}
+									setContent={setRiderContent}
+									key={`menunterpunsx_${index}`}
+									appendComma={index !== orderedSubmenu.length - 1}
+								/>
+							))}
+						</div>
 						<motion.div
 							initial={{ height: 0 }}
 							animate={contentControls}
-							className="text-xl overflow-hidden text-white mt-8"
+							className="text-xl overflow-hidden text-white mt-8 max-w-menu-content"
 							style={{ textShadow: "none" }}
 						>
 							{content}

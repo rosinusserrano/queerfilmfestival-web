@@ -28,6 +28,10 @@ const config: Config = {
 				"auto-3": "auto auto auto",
 				"auto-2": "auto auto",
 			},
+			maxWidth: {
+				"menu-content": "800px",
+				"menu-rider": "850px"
+			}
 		},
 	},
 	plugins: [],
