@@ -24,6 +24,10 @@ const config: Config = {
 				"menu-lg": "7rem",
 				submenu: "2rem",
 			},
+			gridTemplateColumns: {
+				"auto-3": "auto auto auto",
+				"auto-2": "auto auto",
+			},
 		},
 	},
 	plugins: [],
