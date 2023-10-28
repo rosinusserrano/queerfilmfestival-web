@@ -10,10 +10,9 @@ import { useEffect, useRef, useState } from "react";
 import ProgrammRider from "../riders/ProgrammRider";
 import AwarenessRider from "../riders/AwerenessRider";
 import { useMediaQuery } from "../utils/media_query";
-import NewsRider from "../riders/NewsRider";
 import KontaktRider from "../riders/KontaktRider";
 
-export default function Home({ lang }: { lang?: "en" | "de" }) {
+export default function Home({ lang }: { lang: "en" | "de" }) {
 	lang = lang ?? "de";
 
 	const refChilds = [
@@ -81,6 +80,7 @@ export default function Home({ lang }: { lang?: "en" | "de" }) {
 							<Element
 								expandedMenu={expandedMenu}
 								setExpanded={setExpandedMenu}
+								lang={lang}
 							/>
 						</motion.div>
 					))}

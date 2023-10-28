@@ -7,6 +7,10 @@ body {
     text-shadow: 0 0 16px #fff;
 }
 
+p{
+    padding-bottom: 16px;
+}
+
 .overlay-parent {
     display: grid;
     grid-template-areas: "overlay";

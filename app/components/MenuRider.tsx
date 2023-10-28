@@ -18,7 +18,8 @@ export default function MenuRider({
 	backgroundColor,
 	expandedMenu,
 	setExpanded,
-	staticContent
+	staticContent,
+	lang,
 }: {
 	orderedSubmenu: string[];
 	submenuContentMap: { [key: string]: ReactNode };
@@ -27,23 +28,35 @@ export default function MenuRider({
 	backgroundColor: string;
 	expandedMenu: string;
 	setExpanded: { (id: string): void };
-	staticContent?: ReactNode
+	staticContent?: ReactNode;
+	lang: "en" | "de";
 }) {
 	const contentControls = useAnimationControls();
 
 	const [content, setContent] = useState<ReactNode | undefined>(undefined);
 
-	async function setRiderContent(content: ReactNode) {
+	async function setRiderContent(newContent: ReactNode) {
+		let hadContent = false;
 		if (content) {
+			hadContent = true
+			console.log("Had content: ", content)
 			await contentControls
 				.start({ height: 0 })
 				.then(() => setContent(undefined));
 		}
-		setContent(content);
-		setTimeout(() => contentControls.start({ height: "fit-content" }), 500);
+		setContent(newContent);
+		setTimeout(() => contentControls.start({ height: "fit-content" }), hadContent ? 500 : 0);
 	}
 
-	const isContact = title === "Kontakt"
+	useEffect(() => {
+		if (content) {
+			contentControls
+				.start({ height: 0 })
+				.then(() => setContent(undefined));
+		};
+	}, [lang]);
+
+	const isContact = title === "Kontakt" || title === "Contact";
 
 	const isExpanded = expandedMenu === title || isContact;
 
@@ -53,8 +66,9 @@ export default function MenuRider({
 				backgroundColor: backgroundColor,
 				textShadow: "none",
 			}}
-			className={"w-full h-fit md:h-full text-6xl md:text-4xl p-2 overflow-y-auto"}
-
+			className={
+				"w-full h-fit md:h-full text-6xl md:text-4xl p-2 overflow-y-auto"
+			}
 		>
 			{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 			<p
@@ -108,6 +122,7 @@ export default function MenuRider({
 							style={{ textShadow: "none" }}
 						>
 							{content}
+							<div className="h-16" />
 						</motion.div>
 					</>
 				)}

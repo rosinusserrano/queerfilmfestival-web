@@ -6,7 +6,12 @@ import MenuRider from "../components/MenuRider";
 export default function AwarenessRider({
 	expandedMenu,
 	setExpanded,
-}: { expandedMenu: string; setExpanded: { (menu: string): void } }) {
+	lang,
+}: {
+	expandedMenu: string;
+	setExpanded: { (menu: string): void };
+	lang: "en" | "de";
+}) {
 	const textColor = "#E73E98";
 	const backgroundColor = "#BC8C9F";
 	return (
@@ -14,80 +19,33 @@ export default function AwarenessRider({
 			title="Awareness"
 			textColor={textColor}
 			backgroundColor={backgroundColor}
-			submenuContentMap={AwarenessMenuToContentMapDeutsch}
-			orderedSubmenu={[
-				"Awarenesskonzept",
-				"Barrieren",
-				"Bildungsmaterial zum download",
-				"Covid-19",
-				"Wie gehen wir mit Kohle um?",
-				"Wie wählen wir Filme aus?",
-			]}
+			submenuContentMap={
+				lang === "de"
+					? AwarenessMenuToContentMapDeutsch
+					: AwarenessMenuToContentMapEnglisch
+			}
+			orderedSubmenu={
+				lang === "de"
+					? [
+							"Awarenesskonzept",
+							"Barrieren",
+							"Bildungsmaterial zum download",
+							"Covid-19",
+							"Wie gehen wir mit Kohle um?",
+							"Wie wählen wir Filme aus?",
+					  ]
+					: ["Concept", "Accessibility", "Covid-19", "Film selection"]
+			}
 			expandedMenu={expandedMenu}
 			setExpanded={setExpanded}
+			lang={lang}
 		/>
-		/* <motion.div
-				className={"text-submenu text-[color:#E73E98] leading-[85%]"}
-				style={{ textShadow: "none" }}
-			>
-				<MenuUnterpunkt
-					title="Awarenesskonzept"
-					contentKey="Awarenesskonzept"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-				{", "}
-				<MenuUnterpunkt
-					title="Barrieren"
-					contentKey="Barrieren"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-				{", "}
-				<MenuUnterpunkt
-					title="Bildungsmaterial zum download"
-					contentKey="Bildungsmaterial zum download"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-				{", "}
-				<MenuUnterpunkt
-					title="Covid-19"
-					contentKey="Covid-19"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-				{", "}
-				<MenuUnterpunkt
-					title="Wie gehen wir mit Kohle um?"
-					contentKey="Wie gehen wir mit Kohle um?"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-				{", "}
-				<MenuUnterpunkt
-					title="Wie wählen wir Filme aus?"
-					contentKey="Wie wählen wir Filme aus?"
-					contentMap={AwarenessMenuToContentMapDeutsch}
-					setContent={setRiderContent}
-				/>
-			</motion.div>
-			<motion.div
-				initial={{ height: 0 }}
-				animate={controls}
-				className="text-xl overflow-hidden"
-				style={{ textShadow: "none" }}
-			>
-				{content}
-			</motion.div>
-		</MenuRider> */
 	);
 }
 
 const AwarenessMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 	Awarenesskonzept: <div>Infos folgen...</div>,
 	Barrieren: <div>Infos folgen...</div>,
-	"Bildungsmaterial zum download": <div>Infos folgen...</div>,
 	"Covid-19": <div>Infos folgen</div>,
 	"Wie gehen wir mit Kohle um?": <div>Infos folgen</div>,
 	"Wie wählen wir Filme aus?": (
@@ -144,5 +102,63 @@ const AwarenessMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 				die entsprechende Community gehen.
 			</p>
 		</div>
+	),
+};
+
+const AwarenessMenuToContentMapEnglisch: { [key: string]: ReactNode } = {
+	Concept: "follows soon",
+	Accessibility: "follows soon",
+	"Covid-19": "follows soon",
+	"Film selection": (
+		<>
+			<p>How do we get films?</p>
+			<p>
+				On the one hand, after two previous festivals, we already have a large
+				number of contacts and artists/producers/performers that we have
+				contacted again this year. On the other hand, we have invited people via
+				Instagram stories and posts to send us viewing links. In addition, this
+				year we also looked at the program of other queer film festivals and
+				alternative film distributors and wrote to films shown there.
+			</p>
+			<p>How do we select?</p>
+			<p>
+				We have a table with all the films. At the end there are 3 columns:
+				Curation Team Internal, Curation Team Vienna and Curation Team
+				Leipzig/Weimar. The respective teams/persons "evaluate" the films, in
+				terms of conformity with our values (see self-image), and the background
+				check (see below). Once all have been screened, we decide how to curate
+				the individual programs in relation to each other and which films fit
+				in. It is important to us to show an international, intersectional,
+				queer_feminist perspective on queer issues. We generally have more films
+				than we can show and pay for, so unfortunately we can't show all the
+				films we'd like to in any given year.
+			</p>
+			<p>
+				Other things we look for are certain triggers that might be in the film.
+				Here we ask ourselves, do we need to show the film? Is the content
+				relevant to the festival? By working out the content and possible
+				triggers, we can also describe the films in advance on social media, so
+				that everyone can decide for themselves whether to come or not. In
+				general, we always ask ourselves the question: What should the films
+				contain? We also want to show queer joy and not always queer hostility,
+				even though both are important to address.
+			</p>
+			<p>
+				Backround checks:
+				<br />
+				We always ask to send us information about the people involved, but we
+				also understand and respect that not everyone wants that. We only want
+				to show films that do not contain stereotypes and conservative
+				narratives. The director's and performer's own position in the film
+				plays an important role.
+				<br />
+				We asked ourselves the following questions during the "background
+				checks" of the filmmakers: Who shows which perspectives, from which
+				point of view and on which perspectives are the films produced, in
+				relation to positioning in society, sexual orientation, gender
+				identity,...? It is important to us that the films are from and not
+				about the respective community.
+			</p>
+		</>
 	),
 };

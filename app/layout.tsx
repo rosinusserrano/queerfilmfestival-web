@@ -8,7 +8,7 @@ import BigX from "./components/BigX";
 import LandingInfo from "./components/LandingInfo";
 
 export const metadata: Metadata = {
-	title: "Queerfilmfestival",
+	title: "Queerfilmfestival Leipzig",
 	description: "",
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({
 			>
 				{/* <Header /> */}
 				{children}
-				<Footer />
+				<Footer/>
 			</body>
 		</html>
 	);

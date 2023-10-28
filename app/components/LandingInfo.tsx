@@ -18,7 +18,7 @@ export default function LandingInfo() {
 
 function BigDate() {
 	return (
-		<p
+		<text
 			className="text-8xl sm:text-9xl md:text-[9rem] lg:text-[11rem] pt-4 -z-10"
 			style={{
 				lineHeight: "80%",
@@ -27,7 +27,7 @@ function BigDate() {
 			}}
 		>
 			8.-12. no<span style={{ letterSpacing: "-0.7rem" }}>v &#8217; </span>23
-		</p>
+		</text>
 	);
 }
 
@@ -49,14 +49,14 @@ function LPZ() {
 
 function Keywords() {
 	return (
-		<p className="text-center md:text-right leading-[75%] md:leading-[75%]  text-[3rem] md:text-[4rem] overlay-child w-full">
+		<text className="text-center md:text-right leading-[75%] md:leading-[75%]  text-[3rem] md:text-[4rem] overlay-child w-full">
 			kino <br />
 			workshops <br />
 			panel <br />
 			discussion <br />
 			drag <br />
 			party <br />
-		</p>
+		</text>
 	);
 }
 

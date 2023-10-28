@@ -3,43 +3,98 @@
 import MenuRider from "../components/MenuRider";
 import { ReactNode } from "react";
 import { pix } from "../fonts/fonts";
+import Image from "next/image";
+import logoTraeger from "@/public/logos/Logo_Trägerverein_Queerweg.png";
+import logoPink from "@/public/logos/logo_PinkLabelTV.png";
+import logoCandy2 from "@/public/logos/logo_candykrush_2.jpg";
+import logoSalz from "@/public/logos/Logo_Edition-Salzgeber.jpg";
+import logoCandy1 from "@/public/logos/Logo_candykrush_1.jpg";
 
 export default function AboutRider({
 	expandedMenu,
 	setExpanded,
-}: { expandedMenu: string; setExpanded: { (menu: string): void } }) {
+	lang,
+}: {
+	expandedMenu: string;
+	setExpanded: { (menu: string): void };
+	lang: "en" | "de";
+}) {
 	const textColor = "#df5497";
 	const backgroundColor = "#A42965";
 	return (
 		<MenuRider
-			title="About"
+			title={"About"}
 			textColor={textColor}
 			backgroundColor={backgroundColor}
-			submenuContentMap={AboutMenuToContentMapDeutsch}
-			orderedSubmenu={[
-				"Wer wir sind",
-				"Selbstverständnis",
-				"Presse",
-				"Kooperationspartner_innen",
-				"Volunteer",
-			]}
+			submenuContentMap={
+				lang === "de"
+					? AboutMenuToContentMapDeutsch
+					: AboutMenuToContentMapEnglish
+			}
+			orderedSubmenu={
+				lang === "de"
+					? [
+							"Wer wir sind",
+							"Selbstverständnis",
+							"Presse",
+							"Kooperationspartner_innen",
+							"Volunteer",
+					  ]
+					: [
+							"Who we are",
+							"Self-understanding",
+							"Press",
+							"Partners",
+							"Volunteer",
+					  ]
+			}
 			expandedMenu={expandedMenu}
 			setExpanded={setExpanded}
+			lang={lang}
 		/>
 	);
 }
 
 const AboutMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 	Kooperationspartner_innen: (
-		<p>
-			Wir stehen für dieses Projekt in Kooperation mit dem Verein QueerWeg e.V.
-			und mit finanzieller Förderung durch das Zukunftspaket. Durch die
-			Förderung und der tollen Unterstützung vieler Helfies können wir das
-			Festival kostenlos anbieten. Unser Festival findet in 10 Räumen statt:
-			Kinobar Prager Frühling, CineDing, Lulu Kino, CandyCrush, Juicy S3xshop,
-			Fuge, Ostapotheke, Pögehaus, Heizhaus, GarageOst. Und in Zusammenarbeit
-			mit unseren tollen Workshop, Performance und Diskussionspartner_innen: ….
-		</p>
+		<>
+			<p>
+				Wir stehen für dieses Projekt in Kooperation mit dem Verein QueerWeg
+				e.V. und mit finanzieller Förderung durch das Zukunftspaket. Durch die
+				Förderung und der tollen Unterstützung vieler Helfies können wir das
+				Festival kostenlos anbieten. Unser Festival findet in 10 Räumen statt:
+				Kinobar Prager Frühling, CineDing, Lulu Kino, CandyCrush, Juicy S3xshop,
+				Fuge, Ostapotheke, Pögehaus, Heizhaus, GarageOst. Und in Zusammenarbeit
+				mit unseren tollen Workshop, Performance und Diskussionspartner_innen:
+				LofiCherry, AnAntidote, BerlinStripperCollective,
+				BlackSexworkCollective, PornBetter, Satysfire, Rollfender Widerstand,
+				Anexpected, Phenix usw.
+			</p>
+			<p>Unser Trägerverein:</p>
+			<Image
+				src={logoTraeger}
+				alt="logo kooperationspartner"
+				className="mix-blend-multiply md:max-w-[50%] pb-4"
+			/>
+			<p>Unsere Kooperationspartner*innen in zufälliger Reihenfolge:</p>
+			<div className="grid grid-cols-1 sm:grid-cols-auto-2 gap-12 justify-items-center">
+				<Image
+					src={logoCandy1}
+					alt="logo kooperationspartner"
+					className="mix-blend-multiply max-w-[250px]"
+				/>
+				<Image
+					src={logoPink}
+					alt="logo kooperationspartner"
+					className="pb-4 max-w-[250px]"
+				/>
+				<Image
+					src={logoSalz}
+					alt="logo kooperationspartner"
+					className="pb-4 max-w-[250px]"
+				/>
+			</div>
+		</>
 	),
 	Presse: (
 		<div>
@@ -176,5 +231,229 @@ const AboutMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 			</p>
 		</div>
 	),
-	"Wer wir sind": <p>Infos folgen...</p>,
+	"Wer wir sind": (
+		<>
+			<p>
+				Hallo, wir sind mal mehr oder mal weniger 19 junge Personen aus Weimar,
+				Jena, Leipzig, Wien und Berlin und organisieren unter anderem zum 3. mal
+				das Queerefilmfestival in Weimar und in diesem Jahr zum ersten mal das
+				Queer Xplicit Queerfilmfestival Leipzig. Neben den zwei
+				Queerfilmfestivals sind wir zu anderen Themen oder in anderen
+				Kollektiven politisch aktiv und versuchen diese Arbeiten miteinander zu
+				verknüpfen.
+				<br />
+				Ende 2021 haben wir das Festival, mit noch weniger Menschen, gegründet,
+				um niederschwellig die Sichtbarkeit queerer Themen in unserer
+				Gesellschaft zu erhöhen, uns und andere queere Menschen zu empowern,
+				gemeinsam niederschwellige Zugänge zu schaffen, dazuzulernen, community
+				arbeit zu machen, sowie um (intersektionale) queer_feministische
+				Perspektiven den zunehmend lauter werdenden rechten Meinungen entgegen
+				zu setzen. Dabei organisieren wir uns basisdemokratisch und autonom,
+				arbeiten ehrenamtlich und kostenfrei für unsere Teilnehmenden,
+				kommunizieren hierarchiearm (soweit wir es hinbekommen) in Plenas
+				miteinander und diskutieren viel über Themen die über das Festival
+				hinaus gehen z.B. über Barrieren, das polizieren von queeren Körpern,
+				Awarenessarbeit, Transformative Gerechtigkeit und sexpositive Räume usw.
+				und versuchen dabei auch in der Praxis unseren politischen Ansprüchen
+				gerecht zu werden.
+			</p>
+			<p>Wir sind auch immer offen für neue Leute, sprich uns einfach an!</p>
+		</>
+	),
+};
+
+const AboutMenuToContentMapEnglish: { [key: string]: ReactNode } = {
+	Partners: (
+		<>
+			<p>
+				We stand for this project in cooperation with QueerWeg e.V. and with
+				financial support from the Zukunftspaket. Through the funding and the
+				great support of many Helfies we can open the festival for free. Our
+				festival will take place in 10 spaces: Kinobar Prager Frühling,
+				CineDing, Lulu Kino, CandyCrush, Juicy S3xshop, Fuge, Ostapotheke,
+				Pögehaus, Heizhaus, GarageOst. And in collaboration with our great
+				workshop, performance and discussion partners: LofiCherry, AnAntidote,
+				BerlinStripperCollective, BlackSexworkCollective, PornBetter, Satysfire,
+				Rollfender Widerstand, Anexpected, Phenix aso.
+			</p>
+			<p>Our supporting organization:</p>
+			<Image
+				src={logoTraeger}
+				alt="logo kooperationspartner"
+				className="mix-blend-multiply md:max-w-[50%] pb-4"
+			/>
+			<p>Our partners in random order:</p>
+			<div className="grid grid-cols-1 sm:grid-cols-auto-2 gap-12 justify-items-center">
+				<Image
+					src={logoCandy1}
+					alt="logo kooperationspartner"
+					className="mix-blend-multiply max-w-[250px]"
+				/>
+				<Image
+					src={logoPink}
+					alt="logo kooperationspartner"
+					className="pb-4 max-w-[250px]"
+				/>
+				<Image
+					src={logoSalz}
+					alt="logo kooperationspartner"
+					className="pb-4 max-w-[250px]"
+				/>
+			</div>
+		</>
+	),
+	Press: (
+		<>
+			<p>You can find all info at:</p>
+			<p>
+				Photos on Flickl:
+				<br />
+				Website:{" "}
+				<a href="https://queerfilmfestivalconnection.de">
+					https://queerfilmfestivalconnection.de
+				</a>
+				<br />
+				Instagram: <span className={`${pix.className}`}>@</span>
+				queerfilmfestivalleipzig
+			</p>
+			<p>
+				Press contact:
+				<br />
+				Mail:{" "}
+				<a href="mailto:press_queerxplicit@riseup.net">
+					press_queerxplicit(at)riseup.net
+				</a>
+				<br />
+				Phone: on request
+			</p>
+		</>
+	),
+	"Self-understanding": (
+		<>
+			<p>
+				We, the collective behind the two queer_feminist film festivals in
+				Weimar and Leipzig, are a core team of sometimes more or sometimes less
+				than 19 people from Weimar, Jena, Leipzig, Vienna and Berlin. We were
+				founded at the end of 2021 to increase the visibility of queer issues in
+				our society, to empower queer people, to create low-barrier accesses
+				together, to learn together and to counter the increasingly loud
+				right-wing opinions with queer_feminist perspectives.
+			</p>
+			<p>
+				We ourselves are predominantly white-positioned flintaGq*, predominantly
+				gender-queer, studying, young people and predominantly without
+				disabilities. Therefore, we actively reflect on our privileges and
+				constantly educate ourselves to think along intersectional perspectives.
+				For us, intersectional perspectives mean acting anti-racist,
+				anti-classist, queer_feminist, anti-fascist, anti-capitalist,
+				anti-ableist, etc., the intertwining of different forms of
+				discrimination and the common struggle against them. We critically view
+				our positions within social power relations. Since we ourselves tend to
+				live in a relatively "homogeneous" reality, the participating artists of
+				the films, our workshop experts and all supporters (especially our great
+				helpers) are of particular importance for our film festivals. We
+				continue to see ourselves as an association in which people, for whom a
+				diverse and intersectional approach to the discussion of queer_feminist
+				issues and entanglements is very important, can participate. Together we
+				want to focus on the needs and concerns of queer people, as well as
+				actively leave space for other queer realities of life and for those
+				affected by various forms of discrimination. We want to open up
+				intersectional, queer spaces with as little hierarchy as possible, in
+				which our participants can share their experiences, needs and political
+				scope for action and help shape the festivals.
+			</p>
+			<p>
+				We are constantly trying to break down barriers, through free of charge
+				events, film and worshops that are mostly spoken in German and English,
+				an announcement about barriers and accessibility (e.g. access for people
+				with disabilities and events in sign language), trigger warnings and
+				content notes in advance.
+			</p>
+			<p>
+				Before the festival we will formulate an extra post where we list the
+				individual barriers.
+			</p>
+			<p>
+				There will be at least one awareness team present at all our screenings
+				and other events. In addition, there is an anonymous email address to
+				which criticism and/or questions and concerns can be sent at any time.
+				This is: queerfilmfestival-awareness(at)riseup.net. We are happy to
+				receive tips and open feedback so that we can continue to learn
+				together.
+			</p>
+			<p>
+				In general, we are aware that we cannot guarantee complete safety and
+				that we still have to break down many barriers. For us, this means
+				treating ourselves and others with respect, looking out for and
+				supporting each other, maintaining boundaries, and actively working
+				against discriminatory and inconsiderate behaviour. We ask all
+				participants to read our awareness concept on the website and our
+				Instagram accounts (<span className={`${pix.className}`}>@</span>
+				queerfilmfestivalweimar <span className={`${pix.className}`}>@</span>
+				queerfilmfestivalleipzig).
+			</p>
+			<p>For a collectively lived intersectional solidarity!</p>
+			<p>
+				We stand for this project in cooperation with the association QueerWeg
+				e.V. and with financial support from the Zukunftspaket. All organizers
+				and almost all helpers work voluntarily for and at the festivals. Thanks
+				to the funding, we are able to pay all artists and venues. For us as
+				organizers, voluntary work, as unpaid work, not all people can afford.
+				Even with us in the collective, most are in a wage employment
+				relationship or have to do wage work in addition to their studies and
+				volunteer work. We are critical of the concept of "honorary work", which
+				is pursued by most funding programs. It only allows people who can
+				afford it financially, psychologically and physically to take on this
+				extra work and to actively shape their environment. We understand our
+				work as essential educational work for our society and the change we
+				need and find that this should also be remunerated. Because even, or
+				precisely because we are against money and capital, and have resigned
+				ourselves to having to do this unpaid extra work (and prefer
+				precariousness to inactivity), we must (be able to) remain healthy and
+				cover our everyday living costs.
+			</p>
+		</>
+	),
+	Volunteer: (
+		<>
+			<p>
+				You want to participate, organize your own program points or take over
+				an awareness shift? Or are you a space or performance collective?
+			</p>
+			<p>
+				Feel free to write us on Instagram{" "}
+				<span className={`${pix.className}`}>@</span>queerfilmfestivalleipzig
+				<br />
+				If you don't have Instagram but would still like to join the Helfis
+				Telegram group, write us at:
+				<br />
+				application_queerxplicit(at)riseup.net
+			</p>
+		</>
+	),
+	"Who we are": (
+		<>
+			<p>
+				Hello, we are sometimes more or sometimes less 19 young people from
+				Weimar, Jena, Leipzig, Vienna and Berlin and organize among other things
+				for the 3rd time the Queer Film Festival in Weimar and this year for the
+				first time the Queer Xplicit Queer Film Festival Leipzig. Besides the
+				two queer film festivals we are politically active on other topics or in
+				other collectives and try to connect these works. At the end of 2021 we
+				founded the festival, with even less people, to increase the visibility
+				of queer topics in our society in a low-threshold way, to empower
+				ourselves and other queer people, to create low-threshold access
+				together, to learn, to do community work, as well as to challenge
+				(intersectional) queer_feminist perspectives against the increasingly
+				loud right-wing opinions. We organize ourselves in a grassroots
+				democratic and autonomous way, work on a voluntary basis and free of
+				charge for our participants, communicate with low hierarchy (as far as
+				we can manage it) in plenaries and discuss a lot about topics that go
+				beyond the festival, e.g. barriers, policing queer bodies, awareness
+				work, transformative justice and sexpositive spaces and so on, and try
+				to meet our political demands in practice as well.
+			</p>
+			<p>We are also always open to new people, just talk to us!</p>
+		</>
+	),
 };
