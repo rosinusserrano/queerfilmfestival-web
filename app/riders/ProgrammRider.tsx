@@ -32,7 +32,7 @@ export default function ProgrammRider({
 const ProgrammMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 	Übersicht: (
 		<div
-			className="grid grid-cols-2 md:grid-cols-3 auto-cols-auto"
+			className="grid grid-cols-auto-2 md:grid-cols-auto-3 gap-x-6"
 		>
 			<ProgrammTag title="Mittwoch, 8. November" programm={programmMittwoch} />
 			<ProgrammTag

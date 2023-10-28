@@ -184,11 +184,6 @@ export const programmSamstag: ProgrammEntry[] = [
 		location: locations.prag,
 		time: "21:30 - 23:00",
 	},
-    {
-		title: "",
-		location: locations.candy,
-		time: "",
-	},
 ];
 
 export const programmSonntag: ProgrammEntry[] = [
