@@ -1,4 +1,6 @@
-import { ReactNode } from "react";
+"use client";
+
+import { ReactNode, useState } from "react";
 import MenuRider from "../components/MenuRider";
 import {
 	ProgrammEntry,
@@ -8,6 +10,8 @@ import {
 	programmSamstag,
 	programmSonntag,
 } from "../programm";
+
+import { motion } from "framer-motion";
 
 export default function ProgrammRider({
 	expandedMenu,
@@ -150,11 +154,45 @@ function ProgrammTag({
 }
 
 function ProgrammEvent({ event }: { event: ProgrammEntry }) {
+	const [open, setOpen] = useState(false);
+	const [hovered, setHover] = useState(false);
+
+	const toggleDescription = () => setOpen(!open);
+
+	function Text({
+		children,
+		className,
+	}: { children: ReactNode; className?: string }) {
+		return (
+			// biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
+			<text
+				className={className}
+				onClick={toggleDescription}
+				onPointerEnter={() => setHover(true)}
+				onPointerLeave={() => setHover(false)}
+				style={{
+					textShadow: hovered ? "0 0 16px #fff" : "none",
+				}}
+			>
+				{children}
+			</text>
+		);
+	}
+
 	return (
 		<>
-			<text>{event.time}</text>
-			<text>{event.title}</text>
-			<text className="col-start-2 md:col-start-3">{event.location}</text>
+			<Text>{event.time}</Text>
+			<Text>{event.title}</Text>
+			<Text className="col-start-2 md:col-start-3">{event.location}</Text>
+			{event.description && (
+				<motion.div
+					className="pl-4 overflow-hidden w-full col-span-2 md:col-span-3"
+					initial={{ height: 0 }}
+					animate={{ height: open ? "fit-content" : 0 }}
+				>
+					{event.description}
+				</motion.div>
+			)}
 			<div className="col-span-2 md:col-span-3 h-4 md:h-0" />
 		</>
 	);

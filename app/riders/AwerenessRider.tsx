@@ -29,7 +29,6 @@ export default function AwarenessRider({
 					? [
 							"Awarenesskonzept",
 							"Barrieren",
-							"Bildungsmaterial zum download",
 							"Covid-19",
 							"Wie gehen wir mit Kohle um?",
 							"Wie wählen wir Filme aus?",
@@ -73,6 +72,20 @@ const AwarenessMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 				zeigen. Wir haben generell mehr Filme als wir zeigen und bezahlen
 				können, weshalb wir in jedem Jahr leider nicht alle Filme zeigen können,
 				die wir gerne zeigen würden.
+			</p>
+			<p>
+				Mit der Auswahl der Filme geht eine gewisse Macht einher. Denn als
+				Kurationsteam haben wir die Entscheidungsgewalt darüber, was und wer auf
+				der Leinwand präsentiert wird. Dadurch bestimmen wir auch, welche
+				Themen, Produktionen und Stimmen in der Öffentlichkeit präsent sind und
+				möglicherweise Bekanntheit erlangen. Unser Anspruch ist international,
+				intersektional und queer-feministisches Filmprogramm aufzustellen. Da
+				das Kurationsteam in diesem Jahr weiß positioniert, vorwiegend trans und
+				vorwiegend mit akademischem Hintergrund ist, legen wir einen starken
+				Fokus auf das kritische einordnen unserer Perspektiven und versuchen
+				aktiv Filme und Stimmen zu zeigen, die vielfältige Perspektiven
+				repräsentieren, um ein breites Spektrum an Geschichten und Erfahrungen
+				zu zeigen, welche wir als Kurationsteam nicht abbilden können.
 			</p>
 			<p>
 				Andere Dinge auf die wir achten sind auch bestimmte Trigger die
@@ -132,6 +145,19 @@ const AwarenessMenuToContentMapEnglisch: { [key: string]: ReactNode } = {
 				queer_feminist perspective on queer issues. We generally have more films
 				than we can show and pay for, so unfortunately we can't show all the
 				films we'd like to in any given year.
+			</p>
+			<p>
+				With the selection of films comes a certain power. Because as the
+				curation team, we have the power to decide what and who is presented on
+				the screen. In this way, we also determine which topics, productions,
+				and voices are present in the public sphere and potentially become
+				popular. Our aspiration is to put on international, intersectional, and
+				queer-feminist film programming. Because the curation team this year is
+				white positioned, mainly trans, and mostly academic, we are placing a
+				strong focus on critically framing our perspectives and actively seeking
+				to show films and voices that represent diverse perspectives in order to
+				show a wide range of stories and experiences that we as a curation team
+				cannot represent.
 			</p>
 			<p>
 				Other things we look for are certain triggers that might be in the film.
