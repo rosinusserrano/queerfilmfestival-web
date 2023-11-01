@@ -8,8 +8,9 @@ import BigX from "./components/BigX";
 import LandingInfo from "./components/LandingInfo";
 
 export const metadata: Metadata = {
-	title: "Queerfilmfestival Leipzig",
-	description: "",
+	title: "QueerXPlicit 2023 - Queerfilmfestival Leipzig",
+	description: "Queeres Film Festival in Leipzig vom 8. - 12. November 2023",
+	keywords: "festival, leipzig, queer, film, filmfestival, november",
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
 			>
 				{/* <Header /> */}
 				{children}
-				<Footer/>
+				<Footer />
 			</body>
 		</html>
 	);

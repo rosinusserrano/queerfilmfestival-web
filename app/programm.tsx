@@ -18,9 +18,9 @@ const locations = {
 	osta: "Osti",
 	fuge: "Fuge",
 	prag: "Kino Prager Frühling",
-	candy: "CandyCrush",
+	candy: "CandyKrush",
 	juicy: "Juicy",
-	hop: "Hop",
+	hop: "(Adresse auf Anfrage)",
 };
 
 export const programmMittwoch: ProgrammEntry[] = [
@@ -234,22 +234,22 @@ export const programmDonnerstag: ProgrammEntry[] = [
 ];
 
 export const programmFreitag: ProgrammEntry[] = [
-	{
-		title: "Le Paradise (Jugendspielfilm)",
-		location: locations.luru,
-		time: "14:00 - 15:45",
-		description: (
-			<>
-				<p>Kooperation mit Jugendclub</p>
-				<p>
-					Adresse:
-					<br />
-					Spinnereistraße 7, 04179 Leipzig
-				</p>
-				<p>FSK 12</p>
-			</>
-		),
-	},
+	// {
+	// 	title: "Le Paradise (Jugendspielfilm)",
+	// 	location: locations.luru,
+	// 	time: "14:00 - 15:45",
+	// 	description: (
+	// 		<>
+	// 			<p>Kooperation mit Jugendclub</p>
+	// 			<p>
+	// 				Adresse:
+	// 				<br />
+	// 				Spinnereistraße 7, 04179 Leipzig
+	// 			</p>
+	// 			<p>FSK 12</p>
+	// 		</>
+	// 	),
+	// },
 	{
 		title: "Chill Out mit Gäst*innen",
 		location: locations.luru,
