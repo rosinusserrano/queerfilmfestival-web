@@ -76,7 +76,7 @@ export default function KontaktRider({
 							Instagram-Account: <span className={pix.className}>@</span>
 							queerfilmfestivalleipzig
 						</p>
-						<div className="h-16" />
+						<div className="h-32" />
 					</div>
 				) : (
 					<div
@@ -133,7 +133,7 @@ export default function KontaktRider({
 							<span className={pix.className}>@</span>
 							queerfilmfestivalleipzig
 						</p>
-						<div className="h-16" />
+						<div className="h-32" />
 					</div>
 				)
 			}

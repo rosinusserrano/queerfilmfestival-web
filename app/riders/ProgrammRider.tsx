@@ -181,12 +181,12 @@ function ProgrammEvent({ event }: { event: ProgrammEntry }) {
 
 	return (
 		<>
-			<Text>{event.time}</Text>
+			<Text>{makeTimePretty(event.time as string)}</Text>
 			<Text>{event.title}</Text>
 			<Text className="col-start-2 md:col-start-3">{event.location}</Text>
 			{event.description && (
 				<motion.div
-					className="pl-4 overflow-hidden w-full col-span-2 md:col-span-3"
+					className="overflow-hidden w-full col-start-2 md:col-start-2 col-span-1 md:col-span-2"
 					initial={{ height: 0 }}
 					animate={{ height: open ? "fit-content" : 0 }}
 				>
@@ -194,6 +194,19 @@ function ProgrammEvent({ event }: { event: ProgrammEntry }) {
 				</motion.div>
 			)}
 			<div className="col-span-2 md:col-span-3 h-4 md:h-0" />
+		</>
+	);
+}
+
+function makeTimePretty(time: string) {
+	const [from, to] = time.split(" - ");
+	const [from_hh, from_mm] = from.split(":");
+	const [to_hh, to_mm] = to.split(":");
+	return (
+		<>
+			{from_hh}
+			<sup>{from_mm}</sup>-{to_hh}
+			<sup>{to_mm}</sup>
 		</>
 	);
 }

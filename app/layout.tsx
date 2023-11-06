@@ -1,11 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { tele } from "./fonts/fonts";
-import BackgroundVideo from "./components/BackgroundVideo";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import BigX from "./components/BigX";
-import LandingInfo from "./components/LandingInfo";
 
 export const metadata: Metadata = {
 	title: "QueerXPlicit 2023 - Queerfilmfestival Leipzig",
@@ -23,7 +19,6 @@ export default function RootLayout({
 			<body
 				className={`${tele.className} text-white h-screen bg-pink flex flex-col`}
 			>
-				{/* <Header /> */}
 				{children}
 				<Footer />
 			</body>

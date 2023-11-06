@@ -122,7 +122,7 @@ export default function MenuRider({
 							style={{ textShadow: "none" }}
 						>
 							{content}
-							<div className="h-16" />
+							<div className="h-32" />
 						</motion.div>
 					</>
 				)}

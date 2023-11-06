@@ -15,25 +15,61 @@ const locations = {
 	cine: "CineDing",
 	ostg: "OstGarage",
 	poege: "Pögehaus",
-	osta: "Osti",
+	osta: "W1",
 	fuge: "Fuge",
 	prag: "Kino Prager Frühling",
 	candy: "CandyKrush",
 	juicy: "Juicy",
-	hop: "(Adresse auf Anfrage)",
+	hop: "E97",
 };
+
+const barriereRollstuhlgerecht = (
+	<p>
+		Barrieren:
+		<br />
+		Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe Unterpunkt
+		Barrieren
+	</p>
+);
+
+const festivalZentraleDetails = (
+	<>
+		<p>
+			Details:
+			<br />
+			Die Festivalzentrale ist die ganze Zeit offen für alle Interessierten,
+			Künstler*innen und unser Team. Hier werden wir zusammen arbeiten,
+			gemeinsam aus unserer Zine-Wand lesen, bei einem Tee aufwärmen und
+			austauschen. Infomaterialien und STI-Schutz (Lecktücker und Kondome)
+			liegen zum Mitnehmen aus.
+		</p>
+		<p>
+			Eng:
+			<br />
+			The festival headquarters is open the whole time for all interested
+			people, artists and our team. Here we will work together, read together
+			from our zine wall, warm up with a cup of tea and exchange ideas.
+			Information material and STI protection (licks and condoms) will be
+			available to take away.
+		</p>
+	</>
+);
 
 export const programmMittwoch: ProgrammEntry[] = [
 	{
 		title: "Eröffnung mit Sekt und O-Saft",
 		location: locations.luruspin,
-		time: "18:00 - 19:00",
+		time: "18:30 - 19:00",
 		description: (
 			<>
 				<p>
 					Adresse:
 					<br />
 					Spinnereistraße 7, 04179 Leipzig
+				</p>
+				<p>
+					Barrieren: Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe
+					Unterpunkt Barrieren
 				</p>
 			</>
 		),
@@ -50,6 +86,10 @@ export const programmMittwoch: ProgrammEntry[] = [
 					Spinnereistraße 7, 04179 Leipzig
 				</p>
 				<p>ab 18 Jahre/ age 18+</p>
+				<p>
+					Barrieren: Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe
+					Unterpunkt Barrieren
+				</p>
 			</>
 		),
 	},
@@ -65,6 +105,10 @@ export const programmMittwoch: ProgrammEntry[] = [
 					Spinnereistraße 7, 04179 Leipzig
 				</p>
 				<p>ab 18 Jahre/ age 18+</p>
+				<p>
+					Barrieren: Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe
+					Unterpunkt Barrieren
+				</p>
 			</>
 		),
 	},
@@ -78,6 +122,28 @@ export const programmMittwoch: ProgrammEntry[] = [
 					Adresse:
 					<br />
 					Spinnereistraße 7, 04179 Leipzig
+				</p>
+				<p>
+					Barrieren:
+					<br />
+					Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe Unterpunkt
+					Barrieren
+				</p>
+				<p>
+					Details:
+					<br />
+					Die Festivalzentrale ist die ganze Zeit offen für alle Interessierten,
+					Künstler*innen und unser Team. Hier werden wir zusammen arbeiten,
+					gemeinsam aus unserer Zine-Wand lesen, bei einem Tee aufwärmen und
+					austauschen. Infomaterialien und STI-Schutz (Lecktücker und Kondome)
+					liegen zum Mitnehmen aus.
+				</p>
+				<p>
+					Eng: The festival headquarters is open the whole time for all
+					interested people, artists and our team. Here we will work together,
+					read together from our zine wall, warm up with a cup of tea and
+					exchange ideas. Information material and STI protection (licks and
+					condoms) will be available to take away.
 				</p>
 			</>
 		),
@@ -107,6 +173,17 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					<a href="application_queerxplicit@riseup.net">
 						application_queerxplicit(at)riseup.net
 					</a>
+				</p>
+				<p>
+					Sprache:
+					<br />
+					Deutsch / Englisch
+				</p>
+				<p>
+					Barrieren:
+					<br />
+					Nicht Rollstuhlgerecht, der Raum befindet sich im 1. Stock ohne Lift.
+					Weitere Infos unter dem Unterpunkt Barrieren.
 				</p>
 				<br />
 				<br />
@@ -150,6 +227,43 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					Tanzkurs ist. Voguing ist so viel mehr als nur ein Tanz - ihr werdet
 					es merken! ;)
 				</p>
+				<p>
+					english:
+					<br />
+					Voguing is a dance style that originated in the 1960s in New York
+					(Harlem) among queer BiPoC and Latinx people.
+					<br />
+					Inspired by the fashion magazine "Vogue" and the supermodels of the
+					time, the imitation of model poses developed over time into a dance
+					that is now divided into 3 styles, Old Way, New Way and Vogue Fem.
+					<br />
+					The style "Vogue Fem" or originally called: "FemQueen Performance",
+					was mainly influenced by Black and Latinx trans* women.
+					<br />
+					The so-called Ballroom Community, which established this dance,
+					experienced double discrimination in the cis-heteronormative majority
+					society through their intersection BiPOC & queer, so that this dance
+					represents a form of resistance, but can also be understood as an
+					expression of the true self.
+				</p>
+				<p>
+					In the course we will focus on the style "Vogue Fem" and learn the 5
+					elements of this style.
+					<br />
+					The course is inclusive & beginner friendly. You don't need to have
+					any previous dance experience, just an open mind and a willingness to
+					learn about new cultures. Just come in the clothes you feel
+					comfortable in.
+					<br />
+					My recommendation: long pants and/or knee pads for sensitive knees
+				</p>
+				<p>
+					PS: I especially want to encourage people who have been affected by
+					racism and/or homophobia and transphobia to join the class, even if
+					you have no dance experience and this is your first dance
+					class.Voguing is so much more than just a dance - you will realise
+					that ;)
+				</p>
 			</>
 		),
 	},
@@ -166,11 +280,13 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					Spinnereistraße 7, 04179 Leipzig
 				</p>
 				<p>FSK 12</p>
+				{barriereRollstuhlgerecht}
 			</>
 		),
 	},
 	{
-		title: "Fun queer Shorts (Xplicit) mit Publikumsgespräch",
+		title:
+			"Queer Shorts (Xplicit) mit Publikumsgespräch mit Lilian Liquid, Luna E. Heine und Flor Scharf",
 		location: locations.cine,
 		time: "18:30 - 20:45",
 		description: (
@@ -186,20 +302,23 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					<br />
 					20-20:45 Uhr: Publikumsgespräch
 				</p>
+				{barriereRollstuhlgerecht}
 			</>
 		),
 	},
 	{
-		title: "Langspielfilm (tba)",
-		location: locations.luru,
+		title: "Langspielfilm Framing Agnes",
+		location: locations.cine,
 		time: "21:00 - 23:00",
 		description: (
 			<>
+				<p>ab 18 Jahre/ age 18+</p>
 				<p>
 					Adresse:
 					<br />
 					Karl-Heine-Str. 83, 04229 Leipzig
 				</p>
+				{barriereRollstuhlgerecht}
 			</>
 		),
 	},
@@ -213,6 +332,25 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					Adresse:
 					<br />
 					Spinnereistraße 7, 04179 Leipzig
+				</p>
+				{barriereRollstuhlgerecht}
+				<p>
+					Details:
+					<br />
+					Die Festivalzentrale ist die ganze Zeit offen für alle Interessierten,
+					Künstler*innen und unser Team. Hier werden wir zusammen arbeiten,
+					gemeinsam aus unserer Zine-Wand lesen, bei einem Tee aufwärmen und
+					austauschen. Infomaterialien und STI-Schutz (Lecktücker und Kondome)
+					liegen zum Mitnehmen aus.
+				</p>
+				<p>
+					Eng:
+					<br />
+					The festival headquarters is open the whole time for all interested
+					people, artists and our team. Here we will work together, read
+					together from our zine wall, warm up with a cup of tea and exchange
+					ideas. Information material and STI protection (licks and condoms)
+					will be available to take away.
 				</p>
 			</>
 		),
@@ -228,35 +366,38 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					<br />
 					Karl-Heine-Str. 83, 04229 Leipzig
 				</p>
+				{barriereRollstuhlgerecht}
+				{festivalZentraleDetails}
 			</>
 		),
 	},
 ];
 
 export const programmFreitag: ProgrammEntry[] = [
-	// {
-	// 	title: "Le Paradise (Jugendspielfilm)",
-	// 	location: locations.luru,
-	// 	time: "14:00 - 15:45",
-	// 	description: (
-	// 		<>
-	// 			<p>Kooperation mit Jugendclub</p>
-	// 			<p>
-	// 				Adresse:
-	// 				<br />
-	// 				Spinnereistraße 7, 04179 Leipzig
-	// 			</p>
-	// 			<p>FSK 12</p>
-	// 		</>
-	// 	),
-	// },
+	{
+		title: "So damm easy going (Jugendspielfilm)",
+		location: locations.luru,
+		time: "14:00 - 15:45",
+		description: (
+			<>
+				<p>Kooperation mit Jugendclub</p>
+				<p>
+					Adresse:
+					<br />
+					Spinnereistraße 7, 04179 Leipzig
+				</p>
+				<p>FSK 12</p>
+				{barriereRollstuhlgerecht}
+			</>
+		),
+	},
 	{
 		title: "Chill Out mit Gäst*innen",
 		location: locations.luru,
 		time: "14:00 - 18:00",
 	},
 	{
-		title: "P*rn and talk",
+		title: "Xplicit shorts and Talk",
 		location: locations.luru,
 		time: "16:15 - 18:00",
 		description: (
@@ -266,6 +407,7 @@ export const programmFreitag: ProgrammEntry[] = [
 					<br />
 					Spinnereistraße 7, 04179 Leipzig
 				</p>
+				{barriereRollstuhlgerecht}
 			</>
 		),
 	},
@@ -294,6 +436,7 @@ export const programmFreitag: ProgrammEntry[] = [
 					</a>
 				</p>
 				<br />
+				{barriereRollstuhlgerecht}
 				<br />
 				<h2>Details:</h2>
 				<p>Workshop „Ableismus in Beziehungen und Sexualität“</p>
@@ -326,10 +469,9 @@ export const programmFreitag: ProgrammEntry[] = [
 		description: (
 			<>
 				<p>
-					Paneel mit Cosmo und River von einem stripper Kollektiv(Berlin) und
-					PornBetter in Kooperation mit CandyKrush/ Cosmo and River from a
-					stripper collective (Berlin) and PornBetter in cooperation with
-					CandyKrush
+					Paneel mit Cosmo Terra und River Rouge (Berlin), Jorge the Obscence
+					und PornBetter in Kooperation mit CandyKrush/ Cosmo Terra and River
+					Rouge (Berlin) and PornBetter in cooperation with CandyKrush
 				</p>
 				<p>
 					Adresse:
@@ -350,8 +492,8 @@ export const programmFreitag: ProgrammEntry[] = [
 		description: (
 			<>
 				<p>
-					mit Cosmo und River von einem stripper Kollektiv(Berlin) / with Cosmo
-					and River from a stripper collective (Berlin)
+					mit Cosmo Terra and River Rouge/ Stripp-performance with Cosmo Terra
+					and River Rouge (Berlin)
 				</p>
 				<p>ab 18 Jahre/ age 18+</p>
 				<p>Einlass ab 20:30</p>
@@ -359,7 +501,7 @@ export const programmFreitag: ProgrammEntry[] = [
 		),
 	},
 	{
-		title: "Queer Party",
+		title: "Pleasure & Pride - Party",
 		location: locations.osta,
 		time: "22:00 - 06:00",
 		description: (
@@ -424,20 +566,25 @@ export const programmSamstag: ProgrammEntry[] = [
 		),
 	},
 	{
-		title: "Workshop 04: Atelier AnnExpected",
-		location: locations.fuge,
+		title:
+			'Workshop 04: "distress your stress" - DIY Workshop mit Atelier AnnExpected',
+		location: locations.hop,
 		time: "16:00 - 18:30",
 		description: (
 			<>
 				<p>
 					Adresse:
 					<br />
-					Wurzner Straße 20, 04315 Leipzig
+					auf Anfrage
 				</p>
 				<p>
 					Max. Teilnahmezahl:
 					<br />
 					15 Personen
+				</p>
+				<p>
+					***bring deine eigenen Textilien (Shirts, Hoodies, Caps, Jacken ect.)
+					zum Umgestalten mit!***
 				</p>
 				<p>
 					Workshopleitung:
@@ -488,27 +635,91 @@ export const programmSamstag: ProgrammEntry[] = [
 					We can distress, batik, rearrange and much more. Basically just have
 					some fun and forget about the daily life.
 				</p>
+				<p>
+					Deutsch:
+					<br />
+					Ich bin Ann (they/them) vom Atelier AnnExpected. Ich bin eine
+					Künstler*in oder ein kreativer Kopf, wie auch immer man es nennen
+					möchte, die mit gebrauchten/verfallenen Stoffen und Materialien
+					experimentiert. Ich habe keinen bestimmten Stil oder eine bestimmte
+					Vision. Mein Interesse liegt einfach darin, Dinge zu erschaffen und
+					herauszufinden, wie ich mich ausdrücken kann. Mir gefällt die Idee,
+					Kleidung gegen den Cis-Begriff mit DIY-, Punk- und Upcycling-Vibes zu
+					entwerfen.
+				</p>
+				<p>
+					Der Workshop: "distress your stress" Ich möchte Wissen vermitteln, wie
+					man Kleidung oder alten Stoffen ein zweites Leben geben kann, um den
+					Verbrauch zu reduzieren und die Lebensdauer unserer Kleidung zu
+					erhöhen.
+					<br />
+					Wir können gemeinsam unsere Kleidungsstücke umgestalten und upcyceln.
+					Dazu bitte ich euch, alte Kleidung oder Textilien mitzubringen, an
+					denen wir experimentieren können. Da ich alles hauptsächlich zu Hause
+					mache, halten wir die Werkzeuge einfach. Wir brauchen eine Schere,
+					Nadeln, Schleifpapier, Bürsten oder sogar Zahnbürsten. Was auch immer
+					euch in den Sinn kommt, bringt es einfach mit und wir überlegen uns,
+					was wir damit machen. Haargummis, Wasserflaschen, Chlor, Textilmarker,
+					Acryl, Tinte, Nägel, was auch immer. Wir werden auch Handschuhe und
+					Scheren für den Workshop zur Verfügung stellen, aber ich bitte euch,
+					alles mitzubringen, damit wir gemeinsam neue Dinge erfinden und
+					kreativ werden können.
+					<br />
+					Wir können distressieren, batikieren, umgestalten und vieles mehr. Im
+					Grunde genommen einfach nur Spaß haben und den Alltag vergessen.
+				</p>
 			</>
 		),
 	},
 	{
-		title: "Kooperation: Lesung mit Mandita Oeming: Porno",
+		title: "Lesung „p*rno – eine unverschämte Analyse“ mit Mandita Öming",
 		location: "Vögelei",
 		time: "16:00 - 18:00",
 		description: (
 			<>
-				<p>in Kooperation mit Vögelei S*xshop</p>
 				<p>
 					Adresse: <br />
 					Wurzner Str. 13, 04315 Leipzig
 				</p>
 				<p>Sprache: deutsch/ german</p>
+				<p>
+					In Kooperation mit Vögelei begrüßen wir Mandita Öming zu einer Lesung
+					aus ihrem neuen Buch "Porno - Eine unverschämte Analyse".
+				</p>
+				<p>
+					Lasst uns gemeinsam in eine aufregende Diskussion über die Welt des
+					Pornos eintauchen! Wie queer ist der Mainstream-Porno? Kann Porno
+					feministisch sein? Wenn ja, wie? Und wo ziehen wir die Grenze zwischen
+					Filmkunst und Porno?
+				</p>
+				<p>
+					Madita Oeming, renommierte Pornowissenschaftlerin und Autorin, wird
+					uns an diesem Abend anhand ausgewählter Passagen aus ihrem Buch "Porno
+					- Eine unverschämte Analyse" (Rowohlt 2023) Antworten auf diese und
+					andere spannende Fragen näherbringen. Ihr seid herzlich eingeladen,
+					zuzuhören und mitzudiskutieren.
+				</p>
+				<p>
+					English: Reading "P*rno - An outrageous analysis" with Mandita Öming
+				</p>
+				<p>
+					In cooperation with Voegelei, we welcome Mandita Öming for a reading
+					from her new book "Porno - Eine unverschämte Analyse" (P*rn-An
+					outrageous analysis) Let's dive into an exciting discussion about the
+					world of porn together! How queer is mainstream porn? Can porn be
+					feminist? If so, how? And where do we draw the line between film art
+					and porn? Madita Oeming, renowned porn scholar and author, will
+					provide us with answers to these and other exciting questions on this
+					evening based on selected passages from her book "Porno - Eine
+					unverschämte Analyse" (Rowohlt 2023). You are cordially invited to
+					listen and join in the discussion.
+				</p>
 			</>
 		),
 	},
 	{
 		title: "Workshop 05: Shibari mit An Antidote",
-		location: locations.poege,
+		location: locations.fuge,
 		time: "18:00 - 21:00",
 		description: (
 			<>
@@ -517,7 +728,7 @@ export const programmSamstag: ProgrammEntry[] = [
 				<p>
 					Adresse:
 					<br />
-					Hedwigstraße 20, 04315 Leipzig (+ online)
+					Wurzner Straße 20, 04315 Leipzig
 				</p>
 				<p>
 					Max. Teilnahmezahl:
@@ -596,16 +807,24 @@ export const programmSamstag: ProgrammEntry[] = [
 export const programmSonntag: ProgrammEntry[] = [
 	{
 		title: "Vegan Frühstücks-Queer Shorts (Xplicit)",
-		location: "tba",
+		location: locations.hop,
 		time: "11:00 - 13:00",
 		description: (
 			<>
 				<p>ab 18 Jahre/age 18+</p>
+				<p>
+					Adresse:
+					<br />
+					auf Anfrage via Instagram
+					<br />
+					(Eisenbahnstraße)
+				</p>
 			</>
 		),
 	},
 	{
-		title: "Workshop 06: Queer Performance & Dance Workshop with Emil",
+		title:
+			"Workshop 06: Subtle Seductions: Queer Performance & Dance Workshop with Emil",
 		location: locations.fuge,
 		time: "13:00 - 15:00",
 		description: (
@@ -723,6 +942,13 @@ export const programmSonntag: ProgrammEntry[] = [
 					Adresse:
 					<br />
 					Haus der Demokratie, Bernhard-Göring-Straße 152, 04277 Leipzig
+				</p>
+				<p>
+					Fünf Tage Festival, 62 Filme, 9 Workshops, 2 Performances und 2
+					Podiumsdiskussionen sind vorbei. Lasst uns nochmal zusammen kommen,
+					die Community feiern, sich austauschen und connencten. Debbie wird uns
+					durch den Abend moderieren und uns zu queerer Karaoke anstimmen. Wir
+					freuen uns auf euch, kommt vorbei.
 				</p>
 			</>
 		),
