@@ -32,6 +32,7 @@ export default function AwarenessRider({
 							"Covid-19",
 							"Wie gehen wir mit Kohle um?",
 							"Wie wählen wir Filme aus?",
+							"Hygienekonzept",
 					  ]
 					: ["Concept", "Accessibility", "Covid-19", "Film selection"]
 			}
@@ -466,9 +467,181 @@ const AwarenessMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 				. Wir freuen uns über Hinweise und ein offenes Feedback, um stetig
 				gemeinsam weiter zu lernen.
 			</p>
+			<p>
+				<u>
+					<a
+						href="/Jugendschutz Konzept Queere Film.pdf"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Das Jugendschutzkonzept als PDF
+					</a>
+				</u>
+			</p>
 		</div>
 	),
-	Barrieren: <div>Infos folgen...</div>,
+	Barrieren: (
+		<div>
+			<p>
+				<u>Allgemeiner Text zu Barrieren auf unserem Festival </u>
+			</p>
+			<p>
+				Uns ist bewusst, dass unser Festival viele Barrieren mit sich bringt und
+				wir auch in Zukunft noch viele Barrieren abbauen müssen. Ziel unseres
+				Kollektives ist es das Festival möglichst so zu gestalten das sich so
+				viele Menschen wie möglich daran teilhaben können. Leider können wir
+				Stand jetzt fast nur rollstuhl(un)gerechte Barrieren benennen.
+			</p>
+			<p>
+				Wenn ihr noch weitere Fragen bezüglich vorhandener Barrieren habt, ihr
+				euch Unterstützung während des Festivals wünscht oder euch noch weitere
+				Barrieren während des Festivals auffallen, schreibt uns sehr gerne an{" "}
+				<a href="mailto:queerfilmfestival-awareness@riseup.net">
+					queerfilmfestival-awareness(at)riseup.net
+				</a>{" "}
+				oder einfach per DM bei Instagram.
+			</p>
+			<h2>Allgemeine Informationen</h2>
+			<p>
+				Trigger Warning und Content Notes —&gt; Zu allen Filmenvorführungen,
+				wird am Einlass ein ausgedruckten Flyer (auf englisch und deutsch) mit
+				Content notes und Triggerwarnings  ausgeteilt. Zusätzlich wird es vor
+				jedem Film eine kleine Pause geben, dass ihr euch in Ruhe die Content
+				notes und Triggerwarnings zum nächsten Film durchlesen könnt.
+			</p>
+			<p>
+				Sprache —&gt; Alle Sprachen von Filmen oder Workshops werden auf der
+				Website und auf Instagram benannt. Alle Texte werden auf deutsch und
+				englisch übersetzt. Auch die Moderation ist zumeist zweisprachig. Es
+				gibt keine Gebärdendolmatcher*innen.
+			</p>
+			<h2>Veranstaltungsorte Leipzig </h2>
+			<h3>Kinos:</h3>
+			<h4>Cineding</h4>
+			<p>Karl-Heine-Straße 83, 04229 Leipzig</p>
+			<p>
+				Das Cineding ist rollstuhlgerecht über den Hof erreichbar. Es passen ca.
+				50 Personen in das Kino. Es gibt eine rollstuhlgerechte Toilette. Die
+				nächstgelegenen Straßenbahnhaltestellen (Tram 34 Karl-Heine/Merseburger
+				Str. und Tram 3 Felsenkeller) haben alle noch keinen erhöhten
+				Bahnsteige, also kein barrierefreier Ein- und Ausstieg. Die
+				nächstgelegenste Haltestelle mit besserem Zugang wäre die Lützner /
+				Merseburger Str.. Die am Nächsten liegende Station ist ca. 80m entfernt.
+				Es gibt keine privaten Autostellplätze.
+			</p>
+			<p>
+				Anfahrt: Tram 14 Richtung S-Bahnhof Plagwitz, Haltestelle
+				Karl-Heine/Merseburger Str.| Tram 3 Richtung Knautkleeberg, Haltestelle
+				Felsenkeller | Bus 60 Richtung Lindenau, Haltestelle
+				Gießerstr./Naumburger Str. | Bus 74 Richtung Lindenau, Haltestelle
+				Felsenkeller
+			</p>
+			<h4>Kinobar Prager Frühling</h4>
+			<p>Haus der Demokratie, Bernhard-Göring-Straße 152, 04277 Leipzig</p>
+			<p>
+				Die Kinobar ist Rollstuhlgerecht, über das Haus der Demokratie mit Rampe
+				und Fahrstuhl, erreichbar. Der Weg wird ausgeschildert sein. Der Saal
+				hat gesamt 70 Plätze, mit 6-8 Rollstühlplätzen. Es sind
+				rollstuhlgerechte Toiletten vorhanden.​​​​​​​​​​​​​​ 
+			</p>
+			<p>
+				Zu den nächsten öffentlichen Verkehrsmittel sind es zwischen 200-350m.
+				Anfahrt zur Kinobar mit Tram 9, 10, 11 oder mit Bus 70, 89 bis
+				Connewitz, Kreuz. Es gibt keine privaten Parkplätze des Kinos.
+			</p>
+			<p>
+				Anfahrt: Anfahrt zur Kinobar mit Tram 9, 10, 11 oder mit Bus 70, 89 bis
+				Connewitz, Kreuz.
+			</p>
+			<h4>Luru Kino</h4>
+			<p>Spinnereistraße 7, 04179 Leipzig</p>
+			<p>
+				Das Luru Kino ist Rollstuhlgerecht, über einen Hintereingang erreichbar,
+				dieser wird ausgeschildert sein. Das Kino gibt an, das auf dem Weg eine
+				kleine Schwelle ist und empfiehlt daher in Begleitung zu gehen. Ihr
+				könnt uns auch eine Mail schreiben oder uns anrufen unter: +49 178
+				3256148, dann kann wer von uns dich begleiten. Es gibt 50 Kinositze, 2
+				Rollstuhlplätze und 10 weitere Personen können auf der Treppe sitzen.
+				Das WC hat leider eine Stufe, es gibt einen rollstuhlgerechten Zugang
+				wieder über den Hintereingang. 
+			</p>
+			<p>
+				Von der Straßenbahnstation/ S-Bhf bis zum Kino sind es ca. 700m. Das
+				Gelände der Alten Spinnerei ist gepflastert. Das Parken ist max. 2 Std.
+				auf ausgewiesenen Flächen möglich. Weitere Infos:{" "}
+				<a href="https://www.spinnerei.de/anfahrt-parken/">
+					https://www.spinnerei.de/anfahrt-parken/
+				</a>
+			</p>
+			<p>
+				Anfahrt: Ab Hauptbahnhof S-Bahn S 1 Richtung Miltitzer Allee bis
+				S-Bahnhof Plagwitz oder Straßenbahn Linie 14. Ausstieg an der
+				Endhaltestelle S-Bahnhof Plagwitz: Links halten, unter den Gleisen
+				hindurch, links in die Spinnereistraße, nach 50 m links Eingang ins
+				Gelände der Baumwollspinnerei.
+			</p>
+			<p>
+				Hinweis: Die alte Spinnerei war einmal die größte Baumwollspinnerei in
+				Kontinentaleuropa und trug damit zu gewaltvollen Baumwolleanbaus und
+				Versklavung in von Deutschland kolonisierten Ostafrika bei. Wir machen
+				hierauf Aufmerksam, da die alte Spinnerei heute kaum auf diese
+				Verbrechen und Ausbeutung hinweist oder kritisch einordnet. Uns ist es
+				wichtig an die koloniale Vergangenheit zu erinnern. Mehr nachzulesen
+				dank der wertvollen Arbeit von Leipzig-Postkolonial unter:
+				<a href="https://leipzig-postkolonial.de/themen/baumwollspinnerei-leipzig/">
+					https://leipzig-postkolonial.de/themen/baumwollspinnerei-leipzig/
+				</a>{" "}
+				Danke euch!
+			</p>
+			<h3>Workshopräume</h3>
+			<h4>Fuge:</h4>
+			<p>Wurzner Straße 20, 04315 Leipzig</p>
+			<p>
+				Die Fuge ist leider nicht Barrierefrei. Über eine aufklappbare Rampe ist
+				ein Zugang (über eine Stufe) in den Projektraum möglich. Es gibt keine
+				Barrierefreien Sanitätanlagen. Assistenzhunde sind Willkommen und
+				Begleitpersonen auch. Die nächste Bahnstation ist Wiebelstraße (7) mit
+				39m bis zur Fuge. Es besteht eine gute Bühensicht für alle. Es gibt
+				keine privaten Autostellplätze.
+			</p>
+			<h4>Garage Ost:</h4>
+			<p>Hermann-Liebmann-Straße 65-67, 04315 Leipzig</p>
+			<p>
+				Die Anreise für Menschen mit Rollstuhl ist über den Eingang im Hof
+				möglich, dieser Weg wird ausgeschildert sein. Der Haupteingang hat eine
+				Stufe. Es gibt eine Barrierearme Toilette. Es besteht eine gute
+				Bühensicht für alle. Die nächste Straßenbahnstation ist 110m entfernt.
+				Es gibt keine privaten Autostellplätze.
+			</p>
+			<h4>Pögehaus:</h4>
+			<p>Hedwigstraße 20, 04315 Leipzig</p>
+			<p>
+				Das Pögehaus ist mit Rollstuhl zugänglich,der Eingang wird
+				ausgeschildert sein. Es gibt eine rollstuhlgerechte Toilette. Es besteht
+				eine gute Bühensicht für alle. Die nächste Straßenbahnstation ist 400m
+				entfernt. Es gibt keine privaten Autostellplätze.
+			</p>
+			<h4>Partyraum/Osti</h4>
+			<p>Adresse auf Anfrage, ist im Leipziger Osten</p>
+			<p>
+				Die W1 ist leider nicht Barrierefrei. Der Zugang folgt über eine Stufe
+				der Rest des Raumes ist Ebenerdig (Raum 1, Raum 2 und Hof). Aufgrund der
+				Baustelle können wir keine transportaple Rampe anlegen. Es gibt keine
+				Barrierefreie Sanittäranlagen. Assistenzhunde sind auf der Party nicht
+				erlaubt. Begleitpersonen sind Wilkommen. Die nächste Straßenbahnstation
+				ist 300m entfernt. Es gibt keine privaten Autostellplätze.
+			</p>
+			<h4>Hop:</h4>
+			<p>Adresse auf Anfrage, ist im Leipziger Osten</p>
+			<p>
+				Das E97 ist leider nicht Barrierefrei. Der Zugang folgt über eine Stufe,
+				wir können eine transportable Rampe anlegen. Es gibt keine
+				Barrierefreien Sanittäranlagen (sind über 4 Stufen zugänglich). Die
+				nächste Straßenbahnstation ist 110m entfernt. Es gibt keine privaten
+				Autostellplätze.
+			</p>
+		</div>
+	),
 	"Covid-19": <div>Infos folgen</div>,
 	"Wie gehen wir mit Kohle um?": <div>Infos folgen</div>,
 	"Wie wählen wir Filme aus?": (
@@ -540,11 +713,255 @@ const AwarenessMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 			</p>
 		</div>
 	),
+	Hygienekonzept: (
+		<div>
+			<p>
+				Angesichts des erneuten Anstiegs von Covid-19-Fällen in den letzten
+				Wochen bis Monaten haben wir beschlossen, ein Schutz- und Hygienekonzept
+				für sämtliche Veranstaltungen des Festivals auszuarbeiten. Wir möchten
+				euch darum bitten, Rücksicht aufeinander zu nehmen und zu bedenken, dass
+				die Auswirkungen der Pandemie auf jede*n Einzelne*n unterschiedlich
+				sind.
+			</p>
+			<p>Danke, dass ihr aufeinander aufpasst &lt;3</p>
+			<p>
+				<b>Schutz- und Hygienekonzept für:</b>
+				<br />
+				alle Veranstaltungen von dem queer_feministischen Filmfestival
+				queerXplicit
+			</p>
+			<p>
+				<b>Ansprechperson:</b>
+				<br />
+				______?_______
+			</p>
+			<p>
+				<b>Mail:</b>
+				<br />
+				queerxplicit@riseup.net
+			</p>
+			<p>
+				<b>Erstellt am:</b>
+				<br />
+				6. November 2023
+			</p>
+			<h2>Allgemeines</h2>
+			<h3>Verantwortliche Person</h3>
+			<p>Marie und Hanna</p>
+			<h3>Belehrende Mitarbeitende und Gruppenanleitende</h3>
+			<p>
+				alle Mitarbeitenden und Gruppenleitenden werden über die Maßnahmen des
+				Hygienekonzepts informiert
+			</p>
+			<h3>Information Teilnehmende</h3>
+			<p>
+				alle Teilnehmenden von Veranstaltungen werden im Vorfeld, spätestens zu
+				Beginn der Veranstaltung über die Schutz- und Hygieneregeln informiert
+			</p>
+			<h3>Beschilderung</h3>
+			<p>
+				Hinweise auf die Regeln zum Abstand, ggf. Mundschutz sind im
+				Eingangsbereich gut sichtbar
+			</p>
+			<h2>Abstand halten</h2>
+			<h3>Kapazitäten der Räume</h3>
+			<p>
+				Da die Räume der verschiedenen Veranstaltungen unterschiedliche
+				Kapazitäten haben, möchten wir erneut darum bitten, einen Covid-19
+				Antigen-Schnelltest durchzuführen, da es in vielen der Räume nicht
+				möglich sein wird, den Mindestabstand von 1,5 Metern einzuhalten
+			</p>
+			<h2>Hygienemaßnahmen</h2>
+			<h3>Personen mit Erkältungssymptomen</h3>
+			<p>Personen mit Krankheitssymptomen sind gebeten, zu Hause zu bleiben.</p>
+			<h3>Handdesinfektion</h3>
+			<p>Am Eingang des Gebäudes steht Handdesinfektionsmittel zur Verfügung</p>
+			<h3>Handwaschmöglichkeiten</h3>
+			<p>
+				In den Sanitärbereichen sind Handwasch- möglichkeiten mit warmen Wasser,
+				Flüssigseife und Einmalhandtüchern für die Teilnehmenden vorhanden,
+				ebenso ein Abfallkorb für die Entsorgung
+			</p>
+			<h3>Mund-Nasen-Schutz</h3>
+			<p>
+				Teilnehmenden wird empfohlen, einen Mund- Nasen-Schutz tragen.
+				<br />
+				Ein Mund-Nasen-Schutz ist bei jeder Veranstaltung vorrätig
+			</p>
+			<h3>Belüftung </h3>
+			<p>
+				Die Belüftung erfolgt regelmäßig vor und nach, sowie ggf. während der
+				Veranstaltung durch das Öffnen der Fenster
+			</p>
+			<h2>Im Infektionsfall</h2>
+			<h3>Informationen Teilnehmende</h3>
+			<p>
+				Die Teilnehmenden werden darüber informiert, sollte es in ihrer
+				Veranstaltung eine Person geben, die nachträ glich positiv getestet
+				wurde
+			</p>
+			<p>
+				Die Hygienemaßnahmen werden regelmäßig überprüft und ggf. aktualisiert.
+			</p>
+		</div>
+	),
 };
 
 const AwarenessMenuToContentMapEnglisch: { [key: string]: ReactNode } = {
 	Concept: "follows soon",
-	Accessibility: "follows soon",
+	Accessibility: (
+		<div>
+			<p>
+				<u>General text on barriers at our festival </u>
+			</p>
+			<p>
+				We are aware that our festival involves many barriers and that we will
+				have to break down many barriers in the future. The aim of our
+				collective is to organize the festival in such a way that as many people
+				as possible can participate. Unfortunately, we can only name wheelchair
+				(in)accessible barriers at the moment.
+				<br />
+				If you have any further questions regarding existing barriers, if you
+				would like support during the festival or if you notice any other
+				barriers during the festival, please feel free to write to us at
+				queerfilmfestival-awareness@riseup.net or simply DM us on Instagram.
+			</p>
+			<h2>General information</h2>
+			<p>
+				Trigger Warning and Content Notes -&gt; For all film screenings, a
+				printed flyer (in English and German) with content notes and trigger
+				warnings will be handed out at the entrance. In addition, there will be
+				a short break before each movie so that you can read through the content
+				notes and trigger warnings for the next movie at your leisure.
+				<br />
+				Language -&gt; All languages of films or workshops will be named on the
+				website and on Instagram. All texts are translated into German and
+				English. The moderation is also mostly bilingual. There are no sign
+				language interpreters.
+			</p>
+			<h2>Locations Leipzig</h2>
+			<h3>Cinemas:</h3>
+			<h4>Cineding</h4>
+			<p>Karl-Heine-Straße 83, 04229 Leipzig</p>
+			<p>
+				The Cineding is wheelchair accessible via the courtyard. The cinema
+				seats approx. 50 people. There is a wheelchair-accessible toilet. The
+				nearest streetcar stops (Tram 34 Karl-Heine/Merseburger Str. and Tram 3
+				Felsenkeller) do not yet have raised platforms, so there is no
+				barrier-free boarding and alighting. The nearest stop with better access
+				would be Lützner / Merseburger Str.. The nearest station is approx. 80m
+				away. There are no private parking spaces.
+			</p>
+			<p>
+				Directions: Tram 14 direction S-Bahnhof Plagwitz, stop
+				Karl-Heine/Merseburger Str.| Tram 3 direction Knautkleeberg, stop
+				Felsenkeller | Bus 60 direction Lindenau, stop Gießerstr./Naumburger
+				Str. | Bus 74 direction Lindenau, stop Felsenkeller
+			</p>
+			<h4>Cinema bar Prager Frühling</h4>
+			<p>Haus der Demokratie, Bernhard-Göring-Straße 152, 04277 Leipzig</p>
+			<p>
+				The cinema bar is wheelchair accessible via the House of Democracy with
+				ramp and elevator. The route will be signposted. The auditorium has a
+				total of 70 seats, with 6-8 wheelchair spaces. Wheelchair-accessible
+				toilets are available.
+				<br />
+				The nearest public transportation is between 200-350m away. To get to
+				the Kinobar, take streetcar 9, 10, 11 or bus 70, 89 to Connewitz, Kreuz.
+				There is no private parking at the cinema.
+			</p>
+			<p>
+				How to get there: Take streetcar 9, 10, 11 or bus 70, 89 to Connewitz,
+				Kreuz.
+			</p>
+			<h4>Luru Cinema</h4>
+			<p>Spinnereistraße 7, 04179 Leipzig</p>
+			<p>
+				The Luru Kino is wheelchair accessible and can be reached via a rear
+				entrance, which will be signposted. The cinema states that there is a
+				small threshold on the way and therefore recommends that you go with
+				someone. You can also write us an email or call us on: +49 178 3256148,
+				then one of us can accompany you. There are 50 theater seats, 2
+				wheelchair spaces and 10 more people can sit on the stairs.
+				Unfortunately, the toilet has a step, but there is wheelchair-accessible
+				access via the rear entrance.
+				<br />
+				It is approx. 700m from the streetcar station/ S-Bahn station to the
+				cinema. The grounds of the Alte Spinnerei are paved. Parking is possible
+				for a maximum of 2 hours in designated areas. Further information:
+				<a href="https://www.spinnerei.de/anfahrt-parken/">
+					https://www.spinnerei.de/anfahrt-parken/
+				</a>
+			</p>
+			<p>
+				How to get there: From the main station, take S-Bahn S 1 in the
+				direction of Miltitzer Allee to Plagwitz S-Bahn station or streetcar
+				line 14. Get off at the final stop at Plagwitz S-Bahn station: keep
+				left, go under the tracks, turn left into Spinnereistraße, after 50 m
+				turn left into the grounds of the cotton mill.
+			</p>
+			<h3>Workshop rooms</h3>
+			<p>
+				Note: The old spinning mill was once the largest cotton mill in
+				continental Europe and contributed to the violent cultivation of cotton
+				and slavery in East Africa, which was colonized by Germany. We are
+				drawing attention to this, as the old spinning mill today hardly not
+				refers to or critically classifies these crimes and exploitation. It is
+				important to us to remember the colonial past. You can read more thanks
+				to the valuable work of Leipzig-Postkolonial at:
+				<a href="https://leipzig-postkolonial.de/themen/baumwollspinnerei-leipzig/">
+					https://leipzig-postkolonial.de/themen/baumwollspinnerei-leipzig/
+				</a>{" "}
+				Thank you!
+			</p>
+			<h4>Fuge: </h4>
+			<p>Wurzner Straße 20, 04315 Leipzig</p>
+			<p>
+				The Fuge is unfortunately not barrier-free. Access to the project room
+				is possible via a hinged ramp (over a step). There are no barrier-free
+				sanitary facilities. Assistance dogs and accompanying persons are
+				welcome. The nearest train station is Wiebelstraße (7) with 39m to the
+				joint. There is good stage visibility for all. There are no private
+				parking spaces.
+				<br />
+			</p>
+			<h4>Garage East</h4>
+			<p>Hermann-Liebmann-Straße 65-67, 04315 Leipzig</p>
+			<p>
+				Access for people in wheelchairs is possible via the entrance in the
+				courtyard, this route will be signposted. The main entrance has one
+				step. There is a low-barrier toilet. There is good stage visibility for
+				everyone. The nearest streetcar station is 110m away. There are no
+				private parking spaces.
+			</p>
+			<h4>Pögehaus:</h4>
+			<p>Hedwigstraße 20, 04315 Leipzig</p>
+			<p>
+				The Pögehaus is wheelchair accessible, the entrance will be signposted.
+				There is a wheelchair accessible toilet. There is good stage visibility
+				for everyone. The nearest streetcar station is 400m away. There are no
+				private parking spaces.
+			</p>
+			<h4>Party room/Osti: </h4>
+			<p>address on request, is in the east of Leipzig</p>
+			<p>
+				The W1 is unfortunately not barrier-free. Access is via a step, the rest
+				of the room is at ground level (room 1, room 2 and courtyard). Due to
+				the construction site, we cannot install a transportable ramp. There are
+				no barrier-free sanitary facilities. Assistance dogs are not allowed at
+				the party. Accompanying persons are welcome. The nearest streetcar
+				station is 300m away. There are no private parking spaces.
+			</p>
+			<h4>Hop:</h4>
+			<p>Address on request, is in the east of Leipzig</p>
+			<p>
+				The E97 is unfortunately not barrier-free. Access is via a step, we can
+				provide a portable ramp. There are no barrier-free sanitary facilities
+				(accessible via 4 steps). The nearest streetcar station is 110m away.
+				There are no private parking spaces.
+			</p>
+		</div>
+	),
 	"Covid-19": "follows soon",
 	"Film selection": (
 		<>

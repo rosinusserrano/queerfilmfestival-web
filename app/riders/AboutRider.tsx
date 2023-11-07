@@ -260,6 +260,7 @@ const AboutMenuToContentMapDeutsch: { [key: string]: ReactNode } = {
 			<p>Wir sind auch immer offen für neue Leute, sprich uns einfach an!</p>
 		</>
 	),
+	
 };
 
 const AboutMenuToContentMapEnglish: { [key: string]: ReactNode } = {

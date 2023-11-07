@@ -2,7 +2,6 @@
 
 import { notFound, useSearchParams } from "next/navigation";
 import Home from "./pages/Home";
-import { Metadata } from "next";
 
 
 export default function HomePage() {
