@@ -109,6 +109,277 @@ export const programmMittwoch: ProgrammEntry[] = [
 					Barrieren: Rollstuhlgerecht zugänglich, genaue Aufschlüsselung siehe
 					Unterpunkt Barrieren
 				</p>
+				<p>
+					Details:
+					<br />
+					Der Eröffnungsabend – (k)ein Querschnitt durch unser Programm
+				</p>
+				<p>
+					Heute Abend gibt es vielleicht (k)ein Querschnitt durch das Programm,
+					weil wir uns irgendwann gefragt haben was ein Querschnitt überhaupt
+					ist, bei so vielen individuellen, grandiosen Filmen. So ist es in
+					jedem Fall eine viellfältige und mit liebe kuratierte Abfolge an
+					Filmen die queere Körper und Sexualität feiern und in den Mittelpunkt
+					stellen.
+					<br />
+					Viel Spaß bei den wunderbaren Filmen!
+				</p>
+				<p>
+					Engl:
+					<br />
+					The opening night - (not) a cross-section of our program
+				</p>
+				<p>
+					Tonight there is perhaps (not) a cross-section of the program, because
+					at some point we asked ourselves what a cross-section actually is,
+					with so many individual, magnificent films. In any case, it is a
+					diverse and lovingly curated sequence of films that celebrate and
+					focus on queer bodies and sexuality.
+					<br />
+					Enjoy the wonderful films!
+				</p>
+				<h3>
+					1. The sumptuous life of the crazy cat lady and her salacious house
+					kittens (2022) | 05:16 min | USA | Charlie G. Fengler| english
+					subtitels
+				</h3>
+				<p>CN: petplay, slapping/ spanking</p>
+				<p>
+					Synopsis: The Crazy cat lady (reclaiming crazy) holds the power and
+					carries the stigma. The Crazy cat lady knows what alternative family
+					choices are, she cares and love, she fails as a woman in the
+					intersection made by societal concepts of sexuality and mental health,
+					she bears the weight of liberation. The Crazy cat lady has been
+					gendered, but she doesn’t have one, she IS one. She lives with her
+					kitties and she entertains herself in their lust. Crazy as a
+					self-description
+				</p>
+				<p>
+					Backround: Charlie lives and works on and for the dis-identification
+					of everything that has been given to us as immutable: gender, nation,
+					orientation. They started life flagged in Bologna (Italy) but spent
+					multiple years among Europe and USA, trained in Industrial and Costume
+					Design and mutated into a compound of experiences and techniques
+					recognizable as "artistic practices against patriarchy".
+					<a href="http://www.charliegfennel.com/">
+						http://www.charliegfennel.com/
+					</a>
+				</p>
+				<h3>
+					2. Narcisco (2023) | 5:30min | Argentina| Hedonistas with the
+					performer Levon | language: Spanish with english subtitels
+				</h3>
+				<p>
+					CN: Genitalien
+					<br />
+					Tags: #masturbation
+				</p>
+				<p>
+					Synopsis: Levon looks after a friend's apartment for a few days while
+					she is away. In the house he finds a piece of lingerie hanging and is
+					tempted to try it on. 
+				</p>
+				<p>
+					Background: Hedonistas is an audiovisual experience that portrays
+					sexual pleasure and puts on screen the heterogeneity of bodies,
+					desires and identities. We are an audiovisual production company based
+					in Buenos Aires formed by independent filmmakers, sex workers,
+					performers and visual artists.{" "}
+					<a href="http://www.hdn.com.ar/">http://www.hdn.com.ar/</a>
+				</p>
+
+				<h3>
+					3. Octopuss (2022) | 10:18min | Schweiz, Oil Productions with AAA &
+					St-Yann | English
+				</h3>
+
+				<p>
+					CN: spanking/ slapping, nudity
+					<br />
+					Tags: #explicit sex #wasser #schleim
+				</p>
+
+				<p>
+					OCTOPUSS is an apnea dive into wet fantasies, hot fountains. Here, the
+					fluids have flowed. Perhaps they are still flowing. A timeless
+					immersion, OCTOPUSS travels in the abyss of our imaginary.
+				</p>
+
+				<p>
+					Backround: Oil is a queer collective incubating ethical pornographic
+					productions founded in Lausanne in 2018. Co-produced by a dozen
+					members spread between Switzerland, France and Argentina.
+				</p>
+
+				<h3>
+					4. Putos do Centro (DOWNTOWN DELIVERY) (2022) | 15min | Brazil | Jeffe
+					Grochovski with the performers Mika & Sadan | language: Portuguese
+					with english subtitels
+				</h3>
+				<p>
+					CN: nudity, explicit sex, spanking, smoking, peitsche, gagball, leder,
+					seil, spanking/ slapping, spucken, cannabis blatt tattoowiert
+					<br />
+					Tags: # oralsex #analsex
+				</p>
+				<p>
+					Content: At a random encounter at Roosevelt square, Mika seduces Sadan
+					to go to his apartment. In a game of power, Mika puts up a sweaty
+					kinky hook-up.
+				</p>
+				<p>
+					Backround: With audiovisual and art production. Jeffe investigates
+					contemporary meanings in pornography, exploring a poetic universe
+					guided by gender and sexuality studies. Part of ediyporn.
+				</p>
+				<p>
+					<b>*10 minutes break*</b>
+				</p>
+				<h3>
+					5. The Pizzatopping (2019) | 3:42min. | Deutschland | Ethan Folk and
+					Ty Wardwell | performers: Jamal Phoenix | english
+				</h3>
+				<p>Synopsis: Horny Pizza orders up a Hungry Boy.</p>
+				<p>
+					CN: nudity, explicit sex, spanking/ slapping, scars, spucke,
+					fleisch(essen)
+					<br />
+					Tags: #analsex #fingering #licking
+				</p>
+				<p>
+					Backround: Ethan Folk and Ty Wardwell are art partners based in
+					Berlin. They make experimental performances and films which probe
+					masculinity, queerness, and privilege through intimate encounters
+					between their bodies, cash, and dairy products. Buttermilk Films is a
+					Berlin-based boutique production house serving queer porn and
+					documentary.{" "}
+					<a href="https://www.cargocollective.com">www.cargocollective.com</a>
+				</p>
+
+				<h3>
+					6. Transit (2022) |USA | 4:57min | Jiz Lee & Vanniall | english,no
+					dialoge
+				</h3>
+				<p>
+					CN: Nacktheit
+					<br />
+					Tags: explicit sex
+				</p>
+
+				<p>Synopsis: Hotel guests discover a room for two.</p>
+
+				<p>
+					Backround: Vanniall(she/her) Vanniall is an advocate for trans and
+					sexworker communities, as well as an out U+ advocate, sharing her
+					experience as an HIV+performer on her blog and with publications like
+					the Huffington Post. Jiz Lee(they/ them) Porn polymath JizLee has
+					worked in the adult film industry for over a decade, appearing in more
+					than 200 projects from six countries spanning independent erotic films
+					and hardcore gonzo pornography. Jiz is a versatile non-binary
+					performer, an author and producer, and a keyplayer in the queer porn
+					movement
+				</p>
+
+				<h3>
+					7. Pista (2022) | 13:39min. | Brazil | hiperlinque |performers José
+					Eduardo, Larissa Jah, Luxúria Orgasmicah | language: Portuguese with
+					english subtitels
+				</h3>
+				<p>
+					CN: Nacktheit, schnelle Bildabfolge
+					<br />
+					Tags: #groupsex #party
+				</p>
+				<p>
+					Content: Climax is different! Ledah and Clemix activate the sounds
+					that groove José, Larissa and Luxúria in a seductive dance that
+					transforms the dance floor into a sensual space of lust and affection.
+				</p>
+				<p>
+					Backround: Hiperlinque is an audiovisual and body artist, working with
+					dance, performance, cinematography and editing. Hiperlinque does not
+					know how to work alone, he always seeks a group. He lives a pet life
+					under the name Faíska and is a member of Banda Fisiologica, a
+					dystopian punk band.{" "}
+				</p>
+				<p>
+					<b>**10 min break**</b>
+				</p>
+
+				<h3>
+					8. When the lights go out in the darkroom (2023)| 7 min| Polen |
+					Daniela Weiss & Marianna Rodziewicz | english with english subtitels
+				</h3>
+
+				<p>
+					CN: nudity, sexuelle Handlungen werden in einem poem beschrieben
+					<br />
+					Tags: #animation #anus
+				</p>
+				<p>
+					Synopsis: We did it together remotely, creating visuals and oral
+					narrative. We were inspired by our dirty meetings, imagined a cute and
+					cunty space in 3D and looped it to help you come in trans. Chaotic
+					poem read by a voice in cute piggery perfumed with poppers, the body
+					loosen and is thinking about other possibilities of bottoming while
+					deconstructing penetration, moving with fluids. We are queering gay,
+					stink hydrofeminism and un-cis-ing bodies. Swimming in mud between
+					hardore visibility and haptic visuals.
+				</p>
+				<p>
+					Backround: Inspiriert vom Countersexual Manifesto 2028 (P.B.
+					Preciado). Daniela Weiss is a neurodivergent queer trans girl from
+					Poland interested in looking for alternatives to institutions and and
+					art as an alchemy of theories. Her practice is based mostly on chaotic
+					research and writing. Out of this process comes works that are largely
+					text/word based - banners, sentences, manifestos and video narratives
+					that remain situated in a place-specific context post-photography and
+					post-pornography most of the time. The topics that she mentions are
+					psycho-disability, kink, queer bodies, education, allotment gardens,
+					passivity and hydrofeminism. In Marianna artistic practice, drawing
+					from autobiographical experiences, she focuses on human as an
+					individual embedded in society. She raises the issues of objectivity
+					and subjectivity. She looks for the relationship between human being
+					and reality, talking about the relationship with space, other people,
+					nature and self. 
+				</p>
+
+				<h3>
+					9. Cum as you are (2022) | 12 min | German | Hanna Schaich | english
+				</h3>
+				<p>
+					CN: in language: Rape Described (until 3:20)! , explosion, death (body
+					parts), needles, blood, explicit violence (knives, stabs, wounds),
+					screams, fire, dissociation, in sound: screams, in picture: whip,
+					crush glass/ break on body (incl. genitals), spanking, slap, beating
+					(fist), ripping open underwear, peeing on, knife (also on genitals),
+					baton, cage, non-vegan food
+					<br />
+					Tags: #RagePorn #groupsex #fightpatriarcy
+				</p>
+				<p>
+					Synopsis: What if in supposedly individually experienced mental and
+					physical wounds lies thecollective energy for resistance?What if we
+					squirt, dance, eat, whip away a society cramped in shame and norms?
+					Oreven abolish it?What if the anger of all fighters, who live in
+					existing and past patriarchal structures,who had to endure them, who
+					suffered from them or have come to death by them,what if that anger
+					became an overwhelming, transforming energy turning us intofreed,
+					unadjusted and loud people, ready for a positive change? Then we fight
+					foruncompromised being. For love freed from shame. For life as it
+					could be. Aliveorigiastically. FLINTA* fight back!
+				</p>
+
+				<p>
+					Backround: The piece started after having flashbacks that I couldn’t
+					control no more I experienced all my rape and violent experiences
+					again and it felt like my brain can’t stop them no more. But I could
+					write my way out and so the Poem started. To gain control back I took
+					Martial Arts classes and was researching a lot about female
+					ejaculation to talk about stigma and how to gain lust back. One thing
+					lead to another and I understood I am not alone in it when reaching
+					out to collaborators. - Hanna S.
+				</p>
 			</>
 		),
 	},
@@ -152,7 +423,7 @@ export const programmMittwoch: ProgrammEntry[] = [
 
 export const programmDonnerstag: ProgrammEntry[] = [
 	{
-		title: "Workshop 01: Vouging mit Phenix",
+		title: "Workshop 01: Voguing mit Phenix",
 		location: locations.heiz,
 		time: "15:00 - 17:00",
 		description: (
@@ -281,12 +552,80 @@ export const programmDonnerstag: ProgrammEntry[] = [
 				</p>
 				<p>FSK 12</p>
 				{barriereRollstuhlgerecht}
+
+				<h2>
+					Girls, Girls, Girls (2023) / 100min. / Finnland / Alli Haapasalo mit
+					Aamu Milonoff, Eleonoora Kauhanen, Linnea Leino u. a. / Deutsch
+				</h2>
+				<p>
+					<b>language: only in german!</b>
+				</p>
+				<p>
+					CN: toxisches Familienverhältnis (unterlassene Sorgearbeit),
+					Kapitalistische Freizeitvorstellungen, toxische Beziehung(en)
+				</p>
+				<p>
+					#Coming-of-Age #teens #Liebesfilm #Selbstbestimmung #Erwachsenwerden
+					#Male Gaze #Empowerment #Freund*innenschaft #Leistungssport
+				</p>
+				<h3>Inhalt</h3>
+				<p>
+					Rönkkö will alles: Liebe auf den ersten Blick und superguten Sex. Aber
+					die Realität ist: die Typen, die sie mit ihrem expliziten Humor auf
+					den Schulpartys aufreißt, sind entweder zu unsicher oder zu
+					routiniert. Der Funke will nicht überspringen – nicht in der Liebe,
+					nicht beim Sex. Der Rat ihrer abgeklärten besten Freundin Mimmi
+					lautet: üben, üben, üben. Mit Sex kennt sie sich aus. Mit Gefühlen
+					eher nicht. Da geht sie lieber auf Sicherheitsabstand. Ihr ist schon
+					der Teamgeist beim Hockey in der Schule zu emotional. Und sollte
+					jemand es wagen, den einzufordern, macht sie schon mal mit dem
+					Hockeyschläger klar, was eine Außenseiterin wie sie von Teamgeist
+					hält.
+				</p>
+				<p>
+					Während bei der tapfer suchenden Rönkkö beziehungstechnisch alles
+					gleich öde bleibt, verliebt sich ausgerechnet Mimmi Hals über Kopf in
+					die beliebte Eiskunstläuferin Emma. Es ist Liebe auf den ersten Blick.
+					Beidseitig. Eigentlich perfekt. Und genau das macht Mimmi Angst. Was,
+					wenn sie für die ehrgeizige Eiskunstläuferin nur Mittel ist, um aus
+					ihrer eng getakteten Welt der Disziplin und Trainingspläne
+					auszubrechen?
+				</p>
+				<p>
+					Und Emma selber? Beim Training läuft es gerade nicht gut. Sie steht
+					unter großem Erwartungsdruck, aber der dreifache Lutz gelingt nicht
+					mehr, ihr wichtigster Sprung. Mimmi, die Rebellin, ist für sie
+					vielleicht wirklich eine willkommene Komplizin auf den Weg in eine
+					neue Freiheit. Emma hat sich tatsächlich Hals über Kopf in Mimmi
+					verliebt, aber wie machst du das jemanden klar, der lieber alles um
+					sich herum zerstört, als zu riskieren verletzt zu werden.
+				</p>
+				<p>
+					Empfehlung vom pädagogischen Filmtipp Zoom: Politisches
+					Bildungsmaterial für ca. 10. Klasse ab 15 Jahren, mehr Material unter:
+					https://salzgeber.de/media/viki-filmtipp-zoom-girls_girls_girls.pdf
+				</p>
+				<h3>Background</h3>
+				<p>
+					Die finnische Regisseurin Alli Haapasalo erzählt in ihrem gefeierten
+					Film von der Suche nach Liebe und gutem Sex jenseits aller
+					(Rollen-)Klischees. Der Film handelt von tiefer Freund*innenschaft,
+					von selbstbestimmter Sexualität, ohne auf gängige Darstellungen von
+					Freund*innenschaft, Flirt, Liebe und Sex zurückzugreifen. ALLI
+					HAAPASALO (Regie) wurde 1977 in Helsinki geboren. Sie studierte am
+					Filmdepartment der Hochschule für Kunst und Design Helsinki und an der
+					Tisch School of the Arts der New York University. „Girls Girls Girls“
+					ist ihr dritter Langspielfilm. Mehr Infos unter:
+					<a href="https://salzgeber.de/girlsgirlsgirls">
+						https://salzgeber.de/girlsgirlsgirls
+					</a>
+				</p>
 			</>
 		),
 	},
 	{
 		title:
-			"Queer Shorts (Xplicit) mit Publikumsgespräch mit Lilian Liquid, Luna E. Heine und Flor Scharf",
+			"Queer Shorts Xplicit 02 mit Publikumsgespräch mit Lilian Liquid, Luna E. Heine und Flor Scharf",
 		location: locations.cine,
 		time: "18:30 - 20:45",
 		description: (
@@ -303,6 +642,139 @@ export const programmDonnerstag: ProgrammEntry[] = [
 					20-20:45 Uhr: Publikumsgespräch
 				</p>
 				{barriereRollstuhlgerecht}
+				<p>Sprache: diverse with english subtitels; talk is in english</p>
+				<h3>
+					Scars (2023)| 6:35min | Germany| Lilian Liquid | with Lilian Liquid
+					and Fuchs | english
+				</h3>
+				<p>CN: scars</p>
+				<h4>Synopsis</h4>
+				<p>
+					Lilian‘s body tells the story of trauma and transformation. Wearing
+					her superhero cape she wanders the rims of the city. Fragments of an
+					intense encounter put a spotlight on her contradictory existence.
+				</p>
+				<h4>Background</h4>
+				<p>
+					"I was able to let myself go in a completely different way because I
+					felt totally safe for the first time. I could feel that the only thing
+					that mattered was that my partner and I were doing well and nothing
+					else-without any pressure to deliver something, a certain result or
+					image of myself." - Lilian
+				</p>
+				<p>#strap-on #mastubation #explicitsex #forest</p>
+				<h3>
+					Mutal mastubation (2020) | 7:30min | Großbritanien | altSHIFT with
+					Ella Venus, Bishop Black and Kali Sudhra | english Subtitels
+				</h3>
+				<h4>Synopsis</h4>
+				<p>
+					Performers are people and people are performers... Some of us love to
+					be watched and some of us love to watch... and a lot of us are
+					exhibitionists and voyeurs in equal amounts. What if the performers
+					you love in porn wanted to watch you too?
+				</p>
+				<h4>Background</h4>
+				<p>
+					We recently started altSHIFT to utilize our expertise to create
+					alternative porn, moving away from mainstream practices in the
+					industry. We have a passion to make beautiful, arousing and unusual
+					content. We want to harness our audiences’ progressive understanding
+					and practice of sexuality, moving away from well-worn porn tropes. We
+					care about LGBTQ+ stories, kink and BDSM, #MeToo, feminism, ethical
+					non-monogamy, subverting traditional relationship roles, gender
+					fluidity, and the orgasm gap to name a few. We want our porn to turn
+					you on, but also to address the policing of our gender and sexuality.
+				</p>
+				<p>
+					#nudity #explictsex #analsex #mastubation #voyeurism #consenttalk
+					#oralsex #sextoy
+				</p>
+				<h3>
+					Estrellarse (2022) | Chile | 12:44 min | Amadalia Liberté with Aylin,
+					Cat, Carolina Gutiérrez, Dorian Artemis, Emiliano Lanata, Galatea
+					Jorquera, Joaquín Carrasco, Luigi de La Paz, Nataniel Izquierdo, Pia
+					de la Costa, Valentina Ximena | mostly english subtitels
+				</h3>
+				<h4>Synopsis</h4>
+				<p>
+					This piece born with the sighting of more than 50 starfish stranded on
+					the last rock that separates the sea from the sand. In addition to the
+					obvious similarity between the textures and shapes, this phenomenon
+					inspires a research process on the behavior of starfish in relation to
+					the ways of life that Latin American dissidents adopt to subsist
+					inside this fascist, neoliberal and heteronorm system. I take the
+					analogy of stranding as a dissident collective survival method against
+					a system that violates and censors our existence. Resulting in an
+					audiovisual piece, which mixes corporalities with sounds of aquatic
+					and human nature, which invites the audience to immerse themselves in
+					an erotic sensory experience.
+				</p>
+				<h4>Background</h4>
+				<p>
+					Individually, his self-taught training has allowed him to build
+					experiential knowledge around the recording of performing arts and
+					political performance. At the same time and individually, he develops
+					performative proposals focusing his actions on political activism,
+					dissidence, the affective / bonding and mental health located in the
+					Latin American context. Throughout her artistic development she has
+					been part of different collectives that explore from the body, dance,
+					improvisation and the appropriation of public spaces.
+				</p>
+				<p>#starfish #group #nudity #ecosystem #tongue #spit</p>
+				<h3>
+					let our fingers do the dancing (2023) | Germany | Ocular Spice with
+					Mika Diva and LesboPro | english
+				</h3>
+				<p>CN: explicit sex, nudity</p>
+				<h4>Synopsis</h4>
+				<p>
+					The video showcases a lesbian encounter during a party. Two people
+					share intimate moments away from the busy party in the bathroom. The
+					idea is that sometimes in a room filled with people, music and good
+					vibes, all you want is to be close to that one person.
+				</p>
+				<p>#party #wc #tattoos #fingering #oralsex</p>
+				<h3>
+					KLAPPE (2022) GERMANY / 18 mins/ Matt Lambert with GIUSEPPE, AXEL
+					RUBBERAX, KAIDEN FORD, BILLY VEGA, CAIN / english
+				</h3>
+				<p>CN: piss, spiked collar, spanking, spitting</p>
+				<p>
+					An ode to club toilet cruising and the inversion of intimacy
+					experienced so often in queer relationships – fuck first, then
+					friendship.Produced by Erika Lust Films in Association with VITIUM
+				</p>
+				<p>
+					#party #clubtoilet #explicitsex #nudity #group #tattoos #analsex
+					#licking #oralsex
+				</p>
+				<h3>
+					Gostosa de Galochas ( Squashed in Galoshes) | 28min. | Brazil |
+					language: portuguese with english subtitels | Paulx and Iluminatrix
+					with the performers Iluminatrix, Cyber, Profania| english subtitels
+				</h3>
+				<p>
+					CN: cigarettes, spanking/slapping, paddle, biting, gagging, bondage
+				</p>
+				<h3>Content</h3>
+				<p>
+					Iluminatrix is ready to play the sub with Cyber in a special birthday
+					session, but a surprise changes the plans a bit…
+				</p>
+				<h4>Background</h4>
+				<p>
+					Paulx is a non-binary fag, whore, pornografer, performer, positHIVe
+					and hacker of imaginaires. Criticizing the devices of power, their
+					production seeks to explore the various languages ​​of political
+					bitching. Produces, performs and edits. Profania is a non-binary, born
+					and raised in the interior of Bahia, She is a multimedia artist
+					focused on performance and a researcher of oral pleasures.
+				</p>
+				<p>
+					#party #nudity #oralsex #explicitsex #group #tattoos #piercings
+					#consenttalk
+				</p>
 			</>
 		),
 	},
@@ -512,7 +984,7 @@ export const programmFreitag: ProgrammEntry[] = [
 		),
 	},
 	{
-		title: "Festivalzentrale",
+		title: "Festivalzentrale und Meeting Point mit Infostand von Hydra:",
 		location: locations.fuge,
 		time: "12:00 - 19:00",
 		description: (
@@ -673,7 +1145,7 @@ export const programmSamstag: ProgrammEntry[] = [
 	},
 	{
 		title: "Lesung „p*rno – eine unverschämte Analyse“ mit Mandita Öming",
-		location: "Vögelei",
+		location: "Voegelei",
 		time: "16:00 - 18:00",
 		description: (
 			<>
@@ -904,7 +1376,7 @@ export const programmSonntag: ProgrammEntry[] = [
 	{
 		title: "Workshop 08 by Black Sexwork collective with Olivia",
 		location: "auf Anfrage",
-		time: "18:00 - 20:00",
+		time: "19:00 - 21:00",
 		description: (
 			<>
 				<p>Adresse wird bei Workshopanmeldung bekannt gegeben</p>
@@ -954,7 +1426,7 @@ export const programmSonntag: ProgrammEntry[] = [
 		),
 	},
 	{
-		title: "Festivalzentrale und Meeting Point mit Infostand von Hydra",
+		title: "Festivalzentrale und Meeting Point",
 		location: locations.hop,
 		time: "11:00 - 19:30",
 		description: (
