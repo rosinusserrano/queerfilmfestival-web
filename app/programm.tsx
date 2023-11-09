@@ -950,9 +950,104 @@ export const programmFreitag: ProgrammEntry[] = [
 					<br />
 					Hermann-Liebmann-Straße 65-67, 04315 Leipzig
 				</p>
+				<p>Admission from 6:00pm/ Einlass ab 18:00 Uhr</p>
 				<p>
 					language: english with german translation/ Sprache: englisch mit
 					deutscher Übersetzung
+				</p>
+				<h3>Content</h3>
+				<p>
+					While porn seems to be the perfect moral panic, we see here at this
+					festival that it is also empowering, that queer joy is celebrated in
+					porn. This scares society and gives us the opportunity to embrace
+					diverse bodies and harness the subversive potential of sex work. The
+					rights of sex workers, queer people and marginalized groups are
+					threatened by far-right politics in Germany and all over the world.
+					Only by thinking about the struggles of sex workers and queer people
+					together and fighting for the most marginalized groups can we protect
+					queer lives.
+				</p>
+				<p>
+					Luno Riot (no pronouns) is a non binary artist, activist and sex
+					worker.
+				</p>
+				<p>
+					Esti (she/no pronouns) helps to create a queer space at Candy Krush
+					(candykrush13120) and encourages queer joy at Porn Better (prn.bttr).
+				</p>
+				<p>
+					Cosmo Terra is a sex worker, drag artist, dancer, and transsexual
+					menace. He aims to help spread awareness about stripping and sex work
+					as a trans man.
+				</p>
+				<p>
+					River Roux is performance artist, aerialist and sex worker. A luscious
+					mix of bounce, flow and brains River dances through the air with raw
+					sensuality earned by over a decade in the sex industry.
+				</p>
+				<p>
+					JorgeTheObscene is a Chilean filmmaker and actor, therapist and sex
+					worker, currently based in Berlin. Since 2014 he started his
+					exploration in queer porn: as producer, performer, co-editor,
+					script-writer, director and editor.
+				</p>
+				<p>
+					Bevor and afterwards you can get your toothgems made at
+					<span className={`${pix.className}`}>@</span>_hotline.bling
+					(recommended price 1 stone/ 15€). They will be there with a stand from
+					6pm to 11pm (with a break during the events).
+				</p>
+				<p>German:</p>
+				<h2>Queer(ing) Porn: Queere Lust, Aktivismus und Sexarbeit</h2>
+				<p>
+					Podium mit Cosmo Terra, River Roux, Jorge the Obscene, Luno Riot und
+					moderiert von Esti (PornBetter, Candykrush)
+				</p>
+				<p>Sprache: englisch mit deutscher Übersetzung</p>
+				<h3>Inhalt</h3>
+				<p>
+					Während Porno die perfekte moralische Panik zu sein scheint, sehen wir
+					hier auf diesem Festival, dass er auch ermächtigend ist, dass queere
+					Freude, Lust und Empowerment im Porno gefeiert wird. Das macht der
+					Gesellschaft Angst und gibt uns die Möglichkeit, verschiedene Körper
+					zu umarmen und das subversive Potenzial der Sexarbeit zu nutzen. Die
+					Rechte von Sexarbeiter*innen, queeren Menschen und maginalisierten
+					Gruppen sind durch rechtsextreme Politik in Deutschland und auf der
+					ganzen Welt bedroht. Nur wenn wir über die Kämpfe von
+					Sexarbeiter*innen und queeren Menschen gemeinsam nachdenken und für
+					die am meisten marginalisierten Gruppen kämpfen, können wir queeres
+					Leben schützen.
+				</p>
+				<p>
+					Luno Riot (keine Pronomen) ist ein*e nicht-binäre Künstler*in,
+					Aktivist*in und Sexarbeiter*in.
+				</p>
+				<p>
+					Esti (sie/keine Pronomen) hilft, einen queeren Raum bei Candy Krush
+					(candykrush13120) zu schaffen und ermutigt queere Freude bei Porn
+					Better (prn.bttr).
+				</p>
+				<p>
+					Cosmo Terra ist ein Sexarbeiter, Drag-Künstler, Tänzer und
+					trans-Aktivist. Er möchte als Transmann das Bewusstsein für Strippen
+					und Sexarbeit schärfen.
+				</p>
+				<p>
+					River Roux ist Performance-Künstler*in, Luftakrobat*in und
+					Sexarbeiter*in. Mit einer köstlichen Mischung aus Schwung, Flow und
+					Hirn tanzt River durch die Luft mit einer rohen Sinnlichkeit, die
+					River sich in über einem Jahrzehnt in der Sexindustrie erworben hat.
+				</p>
+				<p>
+					JorgeTheObscene ist ein chilenischer Filmemacher und Schauspieler,
+					Therapeut und Sexarbeiter, der derzeit in Berlin lebt. Seit 2014
+					beschäftigt er sich mit queeren Pornos: als Produzent, Darsteller,
+					Mitherausgeber, Drehbuchautor, Regisseur und Cutter.
+				</p>
+				<p>
+					Davor und im Anschluss könnt ihr euch Toothgems machen lassen bei
+					@_hotline.bling (Preisempfehlung 1Stein/ 15€). Sie werden mit einem
+					Stand von 18-23 Uhr da sein (mit Pause während den Veranstaltungen).
 				</p>
 			</>
 		),
@@ -969,6 +1064,39 @@ export const programmFreitag: ProgrammEntry[] = [
 				</p>
 				<p>ab 18 Jahre/ age 18+</p>
 				<p>Einlass ab 20:30</p>
+				<h3>Cosmo Terra (he/him)</h3>
+				<p>
+					Cosmo Terra is a sex worker, drag artist, dancer, and transsexual
+					menace. He aims to help spread awareness about stripping and sex work
+					as a trans man. Activist organizing has been a part of Cosmo's life
+					since he joined Boise Mutual Aid in his hometown during the pandemic.
+					After discovering mutual aid and the transformational change it
+					brought to communities of marginalized people, he was motivated to
+					join a group that brings mutual aid and self-determination to queer
+					sex workers. He write his thesis on how centering sex workers' voices
+					decreases stigma and violence towards them.
+					<br />
+					Cosmo has performed at queer and cultural venues including the
+					Volksbühne am Rosa-Luxemburg Platz, Clubtheater Berlin, SO36, the
+					Olympic Stadium, Tipsy Bear Berlin, Curly Bar Berlin, Menschmeier
+					Club, Re:mise Club and 800A Cabaret Bar. His performance repertoire
+					spans from intimate events such as Stripper Stories, Showstoppers Drag
+					and Pole Show, and Go-go Dancing, to extravagant shows like
+					Lollapalooza Festival, the Tag der Clubkultur Award Ceremony, or the
+					Queens Against Borders Drag event.
+				</p>
+				<h3>River Roux (they/she)</h3>
+				<p>
+					River Roux is performance artist, aerialist and sex worker. A luscious
+					mix of bounce, flow and brains River dances through the air with raw
+					sensuality earned by over a decade in the sex industry.
+					<br />
+					River is frequently performing across Berlin’s nightlife venues, has
+					staged and starred in the collective‘s first theatre production ‚Merry
+					Stripmas‘ for Volksbühne Berlin, performed at WHOLE Festival, Tag der
+					Clubkultur and many more. They is currently on stage in ‚Happy Nights‘
+					by Lola Arias, to be seen at Theater Bremen.
+				</p>
 			</>
 		),
 	},
@@ -980,6 +1108,12 @@ export const programmFreitag: ProgrammEntry[] = [
 			<>
 				<p>ab 18 Jahre/ age 18+</p>
 				<p>Adresse nur auf Anfrage via Instagram</p>
+				<h3>Barrieren</h3>
+				<p>
+					eine Stufe am Eingang, keine Möglichkeit eine Rampe anzulegen; keine
+					barrierearmen Toiletten; es wird KEIN(E) Nebelmaschine oder
+					Strobuskoplicht eingesetzt
+				</p>
 			</>
 		),
 	},
