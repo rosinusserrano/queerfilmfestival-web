@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
 	content: [
@@ -15,6 +16,8 @@ const config: Config = {
 			},
 			colors: {
 				pink: "#e83b96",
+				"light-pink": "#E1C7E1",
+				olive: "#243E13"
 			},
 			fontSize: {
 				b: "28px",
@@ -30,10 +33,23 @@ const config: Config = {
 			},
 			maxWidth: {
 				"menu-content": "800px",
-				"menu-rider": "850px"
-			}
+				"menu-rider": "850px",
+			},
+			textShadow: {
+				outline:
+					"-1px -1px 0 (--tw-shadow-color), 1px -1px 0 (--tw-shadow-color), -1px 1px 0 (--tw-shadow-color), 1px 1px 0 (--tw-shadow-color);",
+				"outline-light-pink":
+					"-1px -1px 0 #E1C7E1, 1px -1px 0 #E1C7E1, -1px 1px 0 #E1C7E1, 1px 1px 0 #E1C7E1;",
+			},
 		},
 	},
-	plugins: [],
+	plugins: [
+		plugin(function ({ matchUtilities, theme }) {
+			matchUtilities(
+				{ "text-shadow": (value) => ({ textShadow: value }) },
+				{ values: theme("textShadow") },
+			);
+		}),
+	],
 };
 export default config;

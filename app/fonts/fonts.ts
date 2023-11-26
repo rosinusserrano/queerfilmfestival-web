@@ -7,6 +7,12 @@ export const tele = localFont({
 	preload: true,
 });
 
+export const wonder = localFont({
+	src: "WonderType-Regular.otf",
+	display: "swap",
+	preload: true,
+});
+
 export const pix = Pixelify_Sans({
 	display: "swap",
 	weight: "400",
