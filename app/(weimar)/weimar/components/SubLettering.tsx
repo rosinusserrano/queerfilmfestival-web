@@ -2,9 +2,9 @@ import { wonder } from "@/app/fonts/fonts";
 
 export default function SubLettering() {
 	return (
-		<center>
+		<center className="sticky top-0 z-10">
 			<span
-				className={`${wonder.className} text-white text-shadow-outline-light-pink sticky top-0`}
+				className={`${wonder.className} text-white text-shadow-outline-light-pink`}
 				style={{
 					fontSize: "6vw",
 				}}

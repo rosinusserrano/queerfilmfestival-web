@@ -5,12 +5,7 @@ import { RiderId } from "../../page";
 
 export function MenuBanner() {
 	return (
-		<center
-			className="bg-light-pink text-olive sticky top-0 z-10"
-			style={{
-				fontSize: "3vw",
-			}}
-		>
+		<center className="bg-light-pink text-olive sticky top-[8vw] z-10 text-[3vw]">
 			<MenuBannerItem href="/weimar/about">About</MenuBannerItem>,{" "}
 			<MenuBannerItem href="/about">Programm</MenuBannerItem>,{" "}
 			<MenuBannerItem href="/about">Awareness</MenuBannerItem>,{" "}
