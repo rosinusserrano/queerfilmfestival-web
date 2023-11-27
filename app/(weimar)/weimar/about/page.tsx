@@ -35,7 +35,7 @@ export default async function AboutPage() {
 	);
 }
 
-export async function getAboutContents() {
+async function getAboutContents() {
 	const whoWeAre = await getBlockContentById("who-we-are");
 	const cooperation = await getBlockContentById("cooperation");
 	const press = await getBlockContentById("press");
