@@ -25,8 +25,10 @@ export default function RootLayout({
 			<body className={"h-auto"}>
 				<AnimatePresenceWrapper>
 					<BackgroundImage />
-					<Lettering />
-					<SubLettering />
+					<div className="h-screen">
+						<Lettering />
+						<SubLettering />
+					</div>
 					{/* <div className="h-screen" /> */}
 					<MenuBanner />
 					{children}

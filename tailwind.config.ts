@@ -26,10 +26,11 @@ const config: Config = {
 				"menu-md": "6.5rem",
 				"menu-lg": "7rem",
 				submenu: "2rem",
-				h1resp: "max(3vw, 24px)",
-				h2resp: "max(2.5vw, 20px)",
-				h3resp: "max(2vw, 16px)",
-				h6resp: "max(1vw, 12px)"
+				h1resp: "max(3.2vw, 28px)",
+				h2resp: "max(3.0vw, 24px)",
+				h3resp: "max(2.8vw, 20px)",
+				h4resp: "max(2.6vw, 16px)",
+				h5resp: "max(2.4vw, 12px)"
 			},
 			gridTemplateColumns: {
 				"auto-3": "auto auto auto",

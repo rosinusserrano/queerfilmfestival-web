@@ -9,9 +9,9 @@ export function H1({
 	return (
 		<h1
 			className={`${wonderFont && wonder.className} text-olive ${
-				padded && "py-3"
-			}`}
-			style={{ fontSize: "max(3.1vw, 24px)" }}
+				padded && "py-5"
+			} text-h1resp`}
+			style={{lineHeight: "100%" }}
 		>
 			{children}
 		</h1>
@@ -27,8 +27,7 @@ export function H2({
 		<h2
 			className={`${wonderFont && wonder.className} text-olive ${
 				padded && "py-3"
-			}`}
-			style={{ fontSize: "max(2.9vw, 20px)" }}
+			} text-h2resp`}
 		>
 			{children}
 		</h2>
@@ -44,7 +43,7 @@ export function H3({
 		<h3
 			className={`${wonderFont && wonder.className} text-olive ${
 				padded && "py-3"
-			}`}
+			} text-h3resp`}
 			style={{ fontSize: "max(2.7vw, 16px)" }}
 		>
 			{children}
@@ -61,7 +60,7 @@ export function H4({
 		<h3
 			className={`${wonderFont && wonder.className} text-olive ${
 				padded && "py-2"
-			}`}
+			} `}
 			style={{ fontSize: "max(2.5vw, 12px)" }}
 		>
 			{children}
