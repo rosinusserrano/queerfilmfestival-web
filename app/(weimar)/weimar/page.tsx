@@ -34,7 +34,7 @@ export default async function HomePage() {
 	);
 }
 
-export async function getContactData() {
+async function getContactData() {
 	const contactBlock = await getBlockContentById("contact");
 	return contactBlock;
 }
