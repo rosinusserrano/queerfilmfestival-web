@@ -5,3 +5,19 @@
 /* .text-outline{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 } */
+
+@font-face{
+    font-family: ReplacesAtSymbol;
+    src: url(../../fonts/WonderType-Regular.otf);
+    unicode-range: U+40;
+}
+
+@font-face{
+    font-family: ReplacesAtSymbol;
+    src: url(../../fonts/tele-40-STAR.woff2);
+    unicode-range: U+00-39,U+41-10FFFF;
+}
+
+body{
+    font-family: ReplacesAtSymbol;
+}

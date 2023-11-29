@@ -1,3 +1,4 @@
+import { ExpandInOut } from "../components/ExpandInOut";
 import { LanguageListener } from "../components/LanguageListener";
 import { SubRiderBubble } from "../components/SubRiderBubble";
 import { getBlockContentById, renderBlock } from "../utils";
@@ -5,33 +6,35 @@ import { getBlockContentById, renderBlock } from "../utils";
 export default async function AboutPage() {
 	const contents = await getAboutContents();
 	return (
-		<main>
-			<SubRiderBubble
-				titleDE="Wer wir sind"
-				titleEN="Who we are"
-				blockContent={contents.whoWeAre}
-			/>
-			<SubRiderBubble
-				titleDE="Volunteer"
-				titleEN="Volunteer"
-				blockContent={contents.volunteer}
-			/>
-			<SubRiderBubble
-				titleDE="Kooperationspartner_innen"
-				titleEN="Partners"
-				blockContent={contents.cooperation}
-			/>
-			<SubRiderBubble
-				titleDE="Presse"
-				titleEN="Press"
-				blockContent={contents.press}
-			/>
-			<SubRiderBubble
-				titleDE="Selbstverständnis"
-				titleEN="Self-understanding"
-				blockContent={contents.selfUnderstanding}
-			/>
-		</main>
+		<ExpandInOut key={"EPXNADINOUTABOUTPAGEKEY"}>
+			<main>
+				<SubRiderBubble
+					titleDE="Wer wir sind"
+					titleEN="Who we are"
+					blockContent={contents.whoWeAre}
+				/>
+				<SubRiderBubble
+					titleDE="Volunteer"
+					titleEN="Volunteer"
+					blockContent={contents.volunteer}
+				/>
+				<SubRiderBubble
+					titleDE="Kooperationspartner_innen"
+					titleEN="Partners"
+					blockContent={contents.cooperation}
+				/>
+				<SubRiderBubble
+					titleDE="Presse"
+					titleEN="Press"
+					blockContent={contents.press}
+				/>
+				<SubRiderBubble
+					titleDE="Selbstverständnis"
+					titleEN="Self-understanding"
+					blockContent={contents.selfUnderstanding}
+				/>
+			</main>
+		</ExpandInOut>
 	);
 }
 

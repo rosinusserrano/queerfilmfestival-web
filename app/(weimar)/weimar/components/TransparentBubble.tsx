@@ -14,7 +14,7 @@ export function TransparentBubble({
 
 	return (
 		<motion.div
-			className="pl-10 py-4 my-1"
+			className="px-4 sm:px-6 md:px-8 my-1 relative"
 			style={{
 				background: "linear-gradient(180deg, #E1C7E1 83.73%, #C6DFB6 92.46%)",
 				mixBlendMode: "luminosity",
@@ -24,12 +24,37 @@ export function TransparentBubble({
 			animate={{
 				marginRight: expanded ? 0 : 10,
 				marginLeft: expanded ? 0 : 10,
-				borderRadius: expanded ? 0 : 50
+				borderRadius: expanded ? 0 : 50,
 			}}
-			onClick={() => setExpanded(!expanded)}
+			onClick={() => setExpanded(true)}
 		>
-			{title}
-			<ExpandableContent expanded={expanded}>{body}</ExpandableContent>
+			<div className="flex justify-between">
+				{title}
+				{expanded && (
+					<motion.div
+						className="absolute top-6 right-6 hover:text-white cursor-pointer"
+						onClick={(e) => {
+							e.preventDefault();
+							e.stopPropagation();
+							setExpanded(false);
+						}}
+						initial={{
+							scale: 0,
+							rotate: 360
+						}}
+						animate={{
+							scale: 1,
+							rotate: 0
+						}}
+						transition={{delay: 0.3, duration: 0.4, type: "spring"}}
+					>
+						X
+					</motion.div>
+				)}
+			</div>
+			<ExpandableContent expanded={expanded} maxHeight="70vh">
+				{body}
+			</ExpandableContent>
 		</motion.div>
 	);
 }

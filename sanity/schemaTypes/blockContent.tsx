@@ -40,10 +40,20 @@ export interface BlockContent {
 
 export interface Block {
 	children: BlockChild[];
-	style: "normal";
+	style: "normal" | "h1" | "h2" | "h3" | "h4";
+	listItem?: "bullet";
+	level?: number;
+	markDefs: MarkDef[];
 }
 
 export interface BlockChild {
 	_type: string;
-	text: "span";
+	text: string;
+	marks: string[];
+}
+
+export interface MarkDef {
+	_type: string;
+	href: string;
+	_key: string;
 }

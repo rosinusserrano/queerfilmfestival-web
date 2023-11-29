@@ -8,6 +8,8 @@ export function ExpandInOut({ children }: { children: ReactNode }) {
 			initial={{ height: 0 }}
 			animate={{ height: "fit-content" }}
 			exit={{ height: 0 }}
+			transition={{duration: .7,}}
+			className="overflow-y-auto"
 		>
 			{children}
 		</motion.div>

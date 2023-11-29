@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import { FirstLetterWonder } from "../FirstLetterWonder";
+import { H3 } from "../text/headings";
 
 export function MenuBannerItem({
 	children,

@@ -8,10 +8,16 @@ export async function getBlockContentById(id: string): Promise<BlockContent> {
 	)[0];
 }
 
-export function renderBlock(block: Block): ReactElement{
+export function renderBlock(block: Block): ReactElement {
 	if (block.style === "normal") {
-		return <p>{block.children.map((child) => <span>{child.text}</span>)}</p>
+		return (
+			<p>
+				{block.children.map((child, i) => (
+					<span key={`renderchildspankdsadsadsadey_${i}`}>{child.text}</span>
+				))}
+			</p>
+		);
 	}
 
-	return <p>STYLE NOT YET IMPLEMENTED</p>
+	return <p>STYLE NOT YET IMPLEMENTED</p>;
 }
