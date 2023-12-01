@@ -21,19 +21,19 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="de" className="h-screen">
-			<body className={"h-auto"}>
-				<AnimatePresenceWrapper>
+		<html lang="de" className="h-screen snap-y snap-mandatory">
+			<body className={""}>
 					<BackgroundImage />
-					<div className="h-screen">
+					<div className="h-screen snap-start">
 						<Lettering />
 						<SubLettering />
 					</div>
-					{/* <div className="h-screen" /> */}
-					<MenuBanner />
-					{children}
+					<div className="min-h-screen snap-start">
+						<MenuBanner />
+						{children}
+						<div className="h-12 snap-start"/>
+					</div>
 					<Footer />
-				</AnimatePresenceWrapper>
 			</body>
 		</html>
 	);

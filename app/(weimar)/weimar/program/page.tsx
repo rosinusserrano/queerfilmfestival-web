@@ -4,24 +4,24 @@ import { DateTime } from "luxon";
 import { TransparentBubble } from "../components/TransparentBubble";
 import { LanguageListener } from "../components/LanguageListener";
 import { ExpandInOut } from "../components/ExpandInOut";
-import { H1, H3 } from "../components/text/headings";
+import { H1, H2, H3 } from "../components/text/headings";
+import { getBlockContentById } from "../utils";
+import { SubRiderBubble } from "../components/SubRiderBubble";
+import SanityBlock from "../components/SanityBlock";
 
 export default async function ProgramPage() {
 	const { wednesday, friday, saturday, thursday, sunday } = await getProgram();
-
-	console.log(wednesday);
+	const workshopApplication = await getWorkshopApplication();
 
 	return (
-		<ExpandInOut>
-			<main>
-				<LanguageListener>
-					<H1 padded wonderFont>
-						MITTWOCH
-					</H1>
-					<H1 padded wonderFont>
-						WEDNESDAY
-					</H1>
-				</LanguageListener>
+		<ExpandInOut duration={3}>
+			<main className="text-olive">
+				<SubRiderBubble
+					blockContent={workshopApplication}
+					titleDE="Workshop&shy;anmeldung"
+					titleEN="Workshop application"
+				/>
+				<ProgramDayTitle de="MITTWOCH" en="WEDNESDAY" />
 				{wednesday
 					.sort((a, b) => (a.from_time > b.from_time ? 1 : -1))
 					.map((pe, i) => (
@@ -31,40 +31,62 @@ export default async function ProgramPage() {
 							key={`programbubbleaskjdksa_${i}`}
 						/>
 					))}
-				<LanguageListener>
-					<H1 padded wonderFont>
-						DONNERSTAG
-					</H1>
-					<H1 padded wonderFont>
-						THURSDAY
-					</H1>
-				</LanguageListener>
-				<LanguageListener>
-					<H1 padded wonderFont>
-						FREITAG
-					</H1>
-					<H1 padded wonderFont>
-						FRIDAY
-					</H1>
-				</LanguageListener>
-				<LanguageListener>
-					<H1 padded wonderFont>
-						SAMSTAG
-					</H1>
-					<H1 padded wonderFont>
-						SATURDAY
-					</H1>
-				</LanguageListener>
-				<LanguageListener>
-					<H1 padded wonderFont>
-						SONNTAG
-					</H1>
-					<H1 padded wonderFont>
-						SUNDAY
-					</H1>
-				</LanguageListener>
+				<ProgramDayTitle de="DONNERSTAG" en="THURSDAY" />
+				{thursday
+					.sort((a, b) => (a.from_time > b.from_time ? 1 : -1))
+					.map((pe, i) => (
+						<ProgrammEntryBubble
+							programmEntry={pe}
+							dayString={["Mittwoch", "Wednesday"]}
+							key={`programbubbleaskjdksa_${i}`}
+						/>
+					))}
+				<ProgramDayTitle de="FREITAG" en="FRIDAY" />
+				{friday
+					.sort((a, b) => (a.from_time > b.from_time ? 1 : -1))
+					.map((pe, i) => (
+						<ProgrammEntryBubble
+							programmEntry={pe}
+							dayString={["Mittwoch", "Wednesday"]}
+							key={`programbubbleaskjdksa_${i}`}
+						/>
+					))}
+				<ProgramDayTitle de="SAMSTAG" en="SATURDAY" />
+				{saturday
+					.sort((a, b) => (a.from_time > b.from_time ? 1 : -1))
+					.map((pe, i) => (
+						<ProgrammEntryBubble
+							programmEntry={pe}
+							dayString={["Mittwoch", "Wednesday"]}
+							key={`programbubbleaskjdksa_${i}`}
+						/>
+					))}
+				<ProgramDayTitle de="SONNTAG" en="SUNDAY" />
+				{sunday
+					.sort((a, b) => (a.from_time > b.from_time ? 1 : -1))
+					.map((pe, i) => (
+						<ProgrammEntryBubble
+							programmEntry={pe}
+							dayString={["Sonntag", "Sunday"]}
+							key={`programbubbleaskjdksa_${i}`}
+						/>
+					))}
 			</main>
 		</ExpandInOut>
+	);
+}
+
+function ProgramDayTitle({ en, de }: { en: string; de: string }) {
+	const className = "text-center sm:text-left pl-0 sm:pl-4 md:pl-8";
+	return (
+		<LanguageListener>
+			<H1 padded wonderFont className={className}>
+				{de}
+			</H1>
+			<H1 padded wonderFont className={className}>
+				{en}
+			</H1>
+		</LanguageListener>
 	);
 }
 
@@ -72,32 +94,104 @@ function ProgrammEntryBubble({
 	programmEntry,
 	dayString,
 }: { programmEntry: ProgrammEntry; dayString: [string, string] }) {
-	console.log(programmEntry);
 	return (
 		<TransparentBubble>
-			<div className="grid grid-cols-1 sm:grid-cols-2">
-				<h3 className="text-center sm:text-left text-h6resp sm:text-h2resp">
+			<div className="grid grid-cols-1 sm:grid-cols-2 w-full py-4">
+				<h2 className="leading-none text-center sm:text-left text-h5resp sm:text-h2resp">
+					{/* <LanguageListener>
+						<span>{dayString[0]}, </span>
+						<span>{dayString[1]}, </span>
+					</LanguageListener> */}
 					{programmEntry.from_time}
 					{programmEntry.to_time && " - "}
 					{programmEntry.to_time}
-				</h3>
-				<h3 className="text-center sm:text-left text-h2resp">
+				</h2>
+				<H2 className="text-center sm:text-left leading-none">
 					<LanguageListener>
 						{/* biome-ignore lint/complexity/noUselessFragments: <explanation> */}
 						<>{programmEntry.title_de}</>
 						{/* biome-ignore lint/complexity/noUselessFragments: <explanation> */}
-						<>{programmEntry.title_de}</>
+						<>{programmEntry.title_en}</>
 					</LanguageListener>
-				</h3>
+				</H2>
 			</div>
-			<div>
+			<div className="grid grid-cols-1 sm:grid-cols-2 w-full">
 				<LanguageListener>
-					<p>DE</p>
-					<p>EN</p>
+					<main className="col-start-1 sm:col-start-2">
+						<p>
+							{programmEntry.location_de && (
+								<span>
+									Ort:
+									<br />
+								</span>
+							)}
+							{programmEntry.location_de}
+						</p>
+						<p>
+							{programmEntry.barriers_de && (
+								<span>
+									Barrieren:
+									<br />
+								</span>
+							)}
+							{programmEntry.barriers_de}
+						</p>
+						<p>
+							{programmEntry.language_de && (
+								<span>
+									Sprache:
+									<br />
+								</span>
+							)}
+							{programmEntry.language_de}
+						</p>
+						<p>{programmEntry.details_de && "Details:"}</p>
+						{programmEntry.details_de?.map((bl) => (
+							<SanityBlock sanityBlock={bl} />
+						))}
+					</main>
+					<main className="col-start-1 sm:col-start-2">
+						<p>
+							{programmEntry.location_en && (
+								<span>
+									Location:
+									<br />
+								</span>
+							)}
+							{programmEntry.location_en}
+						</p>
+						<p>
+							{programmEntry.barriers_en && (
+								<span>
+									Barriers:
+									<br />
+								</span>
+							)}
+							{programmEntry.barriers_en}
+						</p>
+						<p>
+							{programmEntry.language_en && (
+								<span>
+									Language:
+									<br />
+								</span>
+							)}
+							{programmEntry.language_en}
+						</p>
+						<p>{programmEntry.details_en && "Details:"}</p>
+						{programmEntry.details_en?.map((bl) => (
+							<SanityBlock sanityBlock={bl} />
+						))}
+					</main>
 				</LanguageListener>
 			</div>
 		</TransparentBubble>
 	);
+}
+
+async function getWorkshopApplication() {
+	const workshopApplication = await getBlockContentById("workshop-application");
+	return workshopApplication;
 }
 
 async function getProgram(): Promise<{
@@ -122,14 +216,6 @@ async function getProgram(): Promise<{
 	const sunday = (await client.fetch(
 		`*[_type == 'program-sunday']`,
 	)) as ProgrammEntry[];
-
-	console.log({
-		wednesday,
-		thursday,
-		friday,
-		saturday,
-		sunday,
-	});
 
 	return {
 		wednesday,

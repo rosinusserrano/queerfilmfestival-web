@@ -21,3 +21,17 @@
 body{
     font-family: ReplacesAtSymbol;
 }
+
+p{
+    font-size: clamp(16px, 3vw, 24px);
+    line-height: 110%;
+    @apply text-olive pb-4
+}
+
+li{
+    list-style: circle;
+    list-style-type: circle;
+    font-size: clamp(16px, 3vw, 24px);
+    line-height: 110%;
+    @apply text-olive ml-4 sm:ml-6 md:ml-8
+}

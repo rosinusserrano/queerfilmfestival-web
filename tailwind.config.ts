@@ -26,11 +26,11 @@ const config: Config = {
 				"menu-md": "6.5rem",
 				"menu-lg": "7rem",
 				submenu: "2rem",
-				h1resp: "max(3.2vw, 28px)",
-				h2resp: "max(3.0vw, 24px)",
-				h3resp: "max(2.8vw, 20px)",
-				h4resp: "max(2.6vw, 16px)",
-				h5resp: "max(2.4vw, 12px)"
+				h1resp: "clamp(26px, 3.2vw, 52px)",
+				h2resp: "clamp(24px, 3.1vw, 48px)",
+				h3resp: "clamp(22px, 3.0vw, 44px)",
+				h4resp: "clamp(20px, 2.9vw, 40px)",
+				h5resp: "clamp(18px, 2.8vw, 36px)",
 			},
 			gridTemplateColumns: {
 				"auto-3": "auto auto auto",
@@ -46,6 +46,9 @@ const config: Config = {
 				"outline-light-pink":
 					"-1px -1px 0 #E1C7E1, 1px -1px 0 #E1C7E1, -1px 1px 0 #E1C7E1, 1px 1px 0 #E1C7E1;",
 			},
+			animation: {
+				'spin-slow': 'spin 2s linear infinite',
+			  }
 		},
 	},
 	plugins: [

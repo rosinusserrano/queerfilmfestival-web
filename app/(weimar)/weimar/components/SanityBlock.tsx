@@ -14,19 +14,19 @@ export default function SanityBlock({ sanityBlock }: { sanityBlock: Block }) {
 		);
 	} else if (style === "h1") {
 		return (
-			<H1 wonderFont padded>
+			<H1 padded>
 				{renderChildren(children, markDefs)}
 			</H1>
 		);
 	} else if (style === "h2") {
 		return (
-			<H2 wonderFont padded>
+			<H2 padded>
 				{renderChildren(children, markDefs)}
 			</H2>
 		);
 	} else if (style === "h3") {
 		return (
-			<H3 wonderFont padded>
+			<H3 padded>
 				{renderChildren(children, markDefs)}
 			</H3>
 		);

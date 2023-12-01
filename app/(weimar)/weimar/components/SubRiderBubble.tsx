@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, ReactNode } from "react";
 import { TransparentBubble } from "./TransparentBubble";
 import { BlockContent } from "@/sanity/schemaTypes/blockContent";
 import { LanguageListener } from "./LanguageListener";
@@ -11,17 +11,21 @@ export function SubRiderBubble({
 	titleEN,
 	blockContent,
 }: {
-	titleDE: string;
-	titleEN: string;
+	titleDE: ReactNode;
+	titleEN: ReactNode;
 	blockContent: BlockContent;
 }) {
 	const englishContent = blockContent.content_en ?? blockContent.content_de;
 	return (
 		<TransparentBubble>
-				<LanguageListener>
-					<H1 wonderFont padded>{titleDE.toUpperCase()}</H1>
-					<H1 wonderFont padded>{titleEN.toUpperCase()}</H1>
-				</LanguageListener>
+			<LanguageListener>
+				<H1 wonderFont padded>
+					{typeof titleDE === "string" ? titleDE.toUpperCase() : titleDE}
+				</H1>
+				<H1 wonderFont padded>
+					{typeof titleEN === "string" ? titleEN.toUpperCase() : titleEN}
+				</H1>
+			</LanguageListener>
 			<LanguageListener>
 				<div>
 					{blockContent.content_de.map((cde, i) => (

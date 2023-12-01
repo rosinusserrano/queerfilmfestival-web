@@ -8,7 +8,7 @@ export default async function AboutPage() {
 		<ExpandInOut key={"EXSPSANDSAAWARENESS"}>
 			<main>
 				<SubRiderBubble
-					titleDE="Awarenesskonzept"
+					titleDE="Awareness&shy;konzept"
 					titleEN="Awareness concept"
 					blockContent={contents.awarenessConcept}
 				/>

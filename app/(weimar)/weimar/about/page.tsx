@@ -19,7 +19,7 @@ export default async function AboutPage() {
 					blockContent={contents.volunteer}
 				/>
 				<SubRiderBubble
-					titleDE="Kooperationspartner_innen"
+					titleDE="Kooperations&shy;partner_innen"
 					titleEN="Partners"
 					blockContent={contents.cooperation}
 				/>
@@ -28,11 +28,11 @@ export default async function AboutPage() {
 					titleEN="Press"
 					blockContent={contents.press}
 				/>
-				<SubRiderBubble
-					titleDE="Selbstverständnis"
-					titleEN="Self-understanding"
-					blockContent={contents.selfUnderstanding}
-				/>
+					<SubRiderBubble
+						titleDE="Selbst&shy;verständnis"
+						titleEN="Self&shy;-understanding"
+						blockContent={contents.selfUnderstanding}
+					/>
 			</main>
 		</ExpandInOut>
 	);

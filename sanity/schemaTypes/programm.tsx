@@ -3,7 +3,7 @@ import {
 	defineBlockForBothLanguages,
 	defineFieldForBothLanguages,
 } from "./utils";
-import { Block } from "./blockContent";
+import { Block, BlockContent } from "./blockContent";
 import { DateTime } from "luxon";
 
 export const programWednesday = defineProgramType(
@@ -84,11 +84,11 @@ export interface ProgrammEntry {
 	location_de: string;
 	location_en: string;
 	from_time: string;
-	to_time: string;
-	language_de: string;
-	language_en: string;
-	barriers_de: string;
-	barriers_en: string;
-	details_de: Block[];
-	details_en: Block[];
+	to_time?: string;
+	language_de?: string;
+	language_en?: string;
+	barriers_de?: string;
+	barriers_en?: string;
+	details_de?: Block[];
+	details_en?: Block[];
 }

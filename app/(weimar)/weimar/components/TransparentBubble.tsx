@@ -3,6 +3,7 @@
 import { ReactElement, useState } from "react";
 import { ExpandableContent } from "./ExpandableContent";
 import { motion } from "framer-motion";
+import CloseX from "./CloseX";
 
 export function TransparentBubble({
 	children,
@@ -14,42 +15,39 @@ export function TransparentBubble({
 
 	return (
 		<motion.div
-			className="px-4 sm:px-6 md:px-8 my-1 relative"
+			className="my-1 relative bg-[#fff6] border-[3px] border-transparent hover:border-[#c8ff93]"
 			style={{
 				background: "linear-gradient(180deg, #E1C7E1 83.73%, #C6DFB6 92.46%)",
 				mixBlendMode: "luminosity",
 				marginTop: 5,
 				marginBottom: 5,
 			}}
+			initial={{
+				marginRight: 10,
+				marginLeft: 10,
+				paddingRight: 32,
+				paddingLeft: 32,
+				borderRadius: 35,
+			}}
 			animate={{
 				marginRight: expanded ? 0 : 10,
 				marginLeft: expanded ? 0 : 10,
-				borderRadius: expanded ? 0 : 50,
+				paddingRight: expanded ? 42 : 32,
+				paddingLeft: expanded ? 42 : 32,
+				borderRadius: expanded ? 0 : 35,
 			}}
 			onClick={() => setExpanded(true)}
 		>
 			<div className="flex justify-between">
 				{title}
 				{expanded && (
-					<motion.div
-						className="absolute top-6 right-6 hover:text-white cursor-pointer"
-						onClick={(e) => {
-							e.preventDefault();
-							e.stopPropagation();
-							setExpanded(false);
-						}}
-						initial={{
-							scale: 0,
-							rotate: 360
-						}}
-						animate={{
-							scale: 1,
-							rotate: 0
-						}}
-						transition={{delay: 0.3, duration: 0.4, type: "spring"}}
-					>
-						X
-					</motion.div>
+						<CloseX
+							onClick={(e) => {
+								e.preventDefault();
+								e.stopPropagation();
+								setExpanded(false);
+							}}
+						/>
 				)}
 			</div>
 			<ExpandableContent expanded={expanded} maxHeight="70vh">

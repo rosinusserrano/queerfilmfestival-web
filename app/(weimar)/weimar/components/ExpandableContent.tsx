@@ -21,8 +21,8 @@ export function ExpandableContent({
 				height: expanded ? "fit-content" : 0,
 				transition: { delay: delay },
 			}}
-			className="overflow-auto"
-			style={{ maxHeight: maxHeight }}
+			className="overflow-auto max-h-[50vh]"
+			// style={{ maxHeight: maxHeight }}
 		>
 			{children}
 		</motion.div>
