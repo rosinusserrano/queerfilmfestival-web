@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import { MouseEventHandler, useState } from "react";
@@ -6,7 +6,7 @@ import { MouseEventHandler, useState } from "react";
 export default function CloseX({
 	onClick,
 }: { onClick: MouseEventHandler<SVGSVGElement> }) {
-    const [hovered, setHovered] = useState(false)
+	const [hovered, setHovered] = useState(false);
 	return (
 		<motion.svg
 			width="25"
@@ -14,36 +14,37 @@ export default function CloseX({
 			viewBox="0 0 251 251"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
-			className="absolute top-3 right-3 animate-spin-slow mix-blend-multiply"
-            onClick={onClick}
-            onPointerEnter={() => setHovered(true)}
-            onPointerLeave={() => setHovered(false)}
-            initial={{scale: 0}}
-            animate={{scale: 1, transition: {duration: 1}}}
+			className="absolute top-3 right-3 animate-spin-slow"
+			onClick={onClick}
+			onPointerEnter={() => setHovered(true)}
+			onPointerLeave={() => setHovered(false)}
+			initial={{ scale: 0 }}
+			animate={{ scale: 1, transition: { duration: 1 } }}
 		>
 			<title>Closing X</title>
 			<g filter="url(#filter0_d_454_6)">
 				<motion.rect
-                initial={{height: 0}}
-                animate={{height: 203, transition:{delay: .5}}}
+					initial={{ height: 0 }}
+					animate={{ height: 203, transition: { delay: 0.5 } }}
 					x="130.17"
 					y="21.4199"
 					width="47"
 					height="203"
 					rx="23"
 					transform="rotate(15.605 130.17 21.4199)"
-					fill={!hovered ? "#243E13": "#E1C7E1"}
+					fill={!hovered ? "#243E13" : "#E1C7E1"}
+					className={"isolate"}
 				/>
 				<motion.rect
-                initial={{height: 0}}
-                animate={{height: 203, transition:{delay: .25}}}
+					initial={{ height: 0 }}
+					animate={{ height: 203, transition: { delay: 0.25 } }}
 					x="229.58"
 					y="130.17"
 					width="47"
 					height="203"
 					rx="23"
 					transform="rotate(105.605 229.58 130.17)"
-					fill={!hovered ? "#243E13": "#E1C7E1"}
+					fill={!hovered ? "#243E13" : "#E1C7E1"}
 				/>
 			</g>
 			<defs>
@@ -56,7 +57,7 @@ export default function CloseX({
 					filterUnits="userSpaceOnUse"
 					colorInterpolation={"sRGB"}
 				>
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feColorMatrix
 						in="SourceAlpha"
 						type="matrix"

@@ -8,6 +8,7 @@ import { H1, H2, H3 } from "../components/text/headings";
 import { getBlockContentById } from "../utils";
 import { SubRiderBubble } from "../components/SubRiderBubble";
 import SanityBlock from "../components/SanityBlock";
+import { ProgramAsImages } from "./ProgramAsImages";
 
 export default async function ProgramPage() {
 	const { wednesday, friday, saturday, thursday, sunday } = await getProgram();
@@ -16,6 +17,7 @@ export default async function ProgramPage() {
 	return (
 		<ExpandInOut duration={3}>
 			<main className="text-olive">
+				<ProgramAsImages />
 				<SubRiderBubble
 					blockContent={workshopApplication}
 					titleDE="Workshop&shy;anmeldung"

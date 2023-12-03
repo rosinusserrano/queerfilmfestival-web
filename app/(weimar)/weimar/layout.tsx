@@ -8,6 +8,7 @@ import { MenuBanner } from "./components/menu/MenuBanner";
 import SubLettering from "./components/SubLettering";
 import { AnimatePresenceWrapper } from "./components/AnimatePresenceWrapper";
 import { ExpandInOut } from "./components/ExpandInOut";
+import { SafariCheckAlert } from "./components/SafariCheckAlert";
 
 export const metadata: Metadata = {
 	title: "Queerfilmfestival Weimar 2023",
@@ -22,6 +23,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="de" className="h-screen snap-y snap-mandatory">
+			<SafariCheckAlert />
 			<body className={""}>
 					<BackgroundImage />
 					<div className="h-screen snap-start">

@@ -17,7 +17,7 @@ const config: Config = {
 			colors: {
 				pink: "#e83b96",
 				"light-pink": "#E1C7E1",
-				olive: "#243E13"
+				olive: "#243E13",
 			},
 			fontSize: {
 				b: "28px",
@@ -47,8 +47,8 @@ const config: Config = {
 					"-1px -1px 0 #E1C7E1, 1px -1px 0 #E1C7E1, -1px 1px 0 #E1C7E1, 1px 1px 0 #E1C7E1;",
 			},
 			animation: {
-				'spin-slow': 'spin 2s linear infinite',
-			  }
+				"spin-slow": "spin 2s linear infinite",
+			},
 		},
 	},
 	plugins: [
