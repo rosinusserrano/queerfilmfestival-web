@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { tele } from "../../fonts/fonts";
+import { tele } from "../fonts/fonts";
 import BackgroundImage from "./components/BackgroundImage";
 import { Footer } from "./components/Footer";
 import Lettering from "./components/Lettering";
