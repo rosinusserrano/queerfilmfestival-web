@@ -2,6 +2,8 @@ import { ExpandInOut } from "../components/ExpandInOut";
 import { SubRiderBubble } from "../components/SubRiderBubble";
 import { getBlockContentById } from "../utils";
 
+export const revalidate = 300;
+
 export default async function AboutPage() {
 	const contents = await getAwarenessContents();
 	return (
@@ -40,8 +42,8 @@ async function getAwarenessContents() {
 
 	return {
 		awarenessConcept,
-        barriers,
-        covid,
-        filmSelection
+		barriers,
+		covid,
+		filmSelection,
 	};
 }

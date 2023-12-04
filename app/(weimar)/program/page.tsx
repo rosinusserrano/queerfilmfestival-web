@@ -10,6 +10,8 @@ import { SubRiderBubble } from "../components/SubRiderBubble";
 import SanityBlock from "../components/SanityBlock";
 import { ProgramAsImages } from "./ProgramAsImages";
 
+export const revalidate = 300;
+
 export default async function ProgramPage() {
 	const { wednesday, friday, saturday, thursday, sunday } = await getProgram();
 	const workshopApplication = await getWorkshopApplication();

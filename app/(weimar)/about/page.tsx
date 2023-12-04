@@ -3,6 +3,8 @@ import { LanguageListener } from "../components/LanguageListener";
 import { SubRiderBubble } from "../components/SubRiderBubble";
 import { getBlockContentById, renderBlock } from "../utils";
 
+export const revalidate = 300
+
 export default async function AboutPage() {
 	const contents = await getAboutContents();
 	return (
