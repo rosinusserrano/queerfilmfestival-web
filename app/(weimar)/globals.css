@@ -8,13 +8,13 @@
 
 @font-face{
     font-family: ReplacesAtSymbol;
-    src: url(../../fonts/WonderType-Regular.otf);
+    src: url(../fonts/WonderType-Regular.otf);
     unicode-range: U+40;
 }
 
 @font-face{
     font-family: ReplacesAtSymbol;
-    src: url(../../fonts/tele-40-STAR.woff2);
+    src: url(../fonts/tele-40-STAR.woff2);
     unicode-range: U+00-39,U+41-10FFFF;
 }
 
