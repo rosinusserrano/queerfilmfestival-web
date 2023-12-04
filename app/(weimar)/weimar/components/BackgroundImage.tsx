@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bgImage from "@/public/weimar/images/Background with animals.png";
+import bgImage from "@/public/weimar/images/Backgroundnoanimals-web-smol-png.png";
 
 export default function BackgroundImage() {
 	return (

@@ -29,6 +29,7 @@ export default function Footer() {
 	const lang = langParam as "en" | "de";
 
 	const router = useRouter();
+	const pathname = usePathname()
 
 	return (
 		<>
@@ -42,7 +43,7 @@ export default function Footer() {
 					>
 						<button
 							type="button"
-							onClick={() => router.push(`/?${lang === "de" ? "lang=en" : "lang=de"}`)}
+							onClick={() => router.push(`${pathname}?${lang === "de" ? "lang=en" : "lang=de"}`)}
 						>
 							{lang === "de" ? "EN" : "DE"}
 						</button>
