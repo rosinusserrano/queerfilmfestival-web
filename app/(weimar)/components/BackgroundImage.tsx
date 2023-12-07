@@ -8,7 +8,7 @@ export default function BackgroundImage() {
 				src={bgImage}
 				alt="bg image"
 				priority={true}
-                className="object-cover min-h-screen"
+                className="object-cover min-h-screen w-full"
 			/>
 		</div>
 	);

@@ -1,13 +1,17 @@
 "use client";
 
-import { ReactElement, useState } from "react";
+import { MouseEventHandler, ReactElement, useState } from "react";
 import { ExpandableContent } from "./ExpandableContent";
 import { motion } from "framer-motion";
 import CloseX from "./CloseX";
 
 export function TransparentBubble({
 	children,
-}: { children: [ReactElement, ReactElement] }) {
+	onClick,
+}: {
+	children: [ReactElement, ReactElement];
+	onClick?: MouseEventHandler<HTMLDivElement>;
+}) {
 	const title = children[0];
 	const body = children[1];
 
@@ -36,18 +40,18 @@ export function TransparentBubble({
 				paddingLeft: expanded ? 42 : 32,
 				borderRadius: expanded ? 0 : 35,
 			}}
-			onClick={() => setExpanded(true)}
+			onClick={onClick ?? (() => setExpanded(true))}
 		>
 			<div className="flex justify-between">
 				{title}
 				{expanded && (
-						<CloseX
-							onClick={(e) => {
-								e.preventDefault();
-								e.stopPropagation();
-								setExpanded(false);
-							}}
-						/>
+					<CloseX
+						onClick={(e) => {
+							e.preventDefault();
+							e.stopPropagation();
+							setExpanded(false);
+						}}
+					/>
 				)}
 			</div>
 			<ExpandableContent expanded={expanded} maxHeight="70vh">

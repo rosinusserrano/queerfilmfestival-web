@@ -1,5 +1,8 @@
 import { ExpandInOut } from "../components/ExpandInOut";
+import { LanguageListener } from "../components/LanguageListener";
 import { SubRiderBubble } from "../components/SubRiderBubble";
+import { TransparentBubble } from "../components/TransparentBubble";
+import { H1 } from "../components/text/headings";
 import { getBlockContentById } from "../utils";
 
 export const revalidate = 300;
@@ -19,11 +22,23 @@ export default async function AboutPage() {
 					titleEN="Barriers"
 					blockContent={contents.barriers}
 				/>
-				<SubRiderBubble
+				{/* <SubRiderBubble
 					titleDE="Covid-19"
 					titleEN="Covid-19"
 					blockContent={contents.covid}
-				/>
+				/> */}
+				<a
+					href="/weimar/Schutz- und Hygienekonzept QFFW23.pdf"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<TransparentBubble>
+						<H1 wonderFont padded>
+							COVID-19
+						</H1>
+						<div />
+					</TransparentBubble>
+				</a>
 				<SubRiderBubble
 					titleDE="Wie wählen wir Filme aus?"
 					titleEN="Film selection"
